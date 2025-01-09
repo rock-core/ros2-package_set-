@@ -1,7 +1,8 @@
 require 'yaml'
 require 'fileutils'
 require 'open-uri'
-
+require 'json'
+require 'net/http'
 # Importer for rosdep definition files
 # use the import() function to save osdeps for a specific ros version, e.g. import("humble")
 
@@ -18,6 +19,42 @@ module Ros2
         def close()
             @osdep_file.close()
             @rosfile.close()
+        end
+
+        def getLatestTag(rosdistro)
+            page = 1
+            new_data = 100
+            all_tags = Array.new
+        
+            # tags are paginated in gitlab, at max we can get 100 entries per page.
+            while new_data == 100 do
+                data = Net::HTTP.get URI("https://api.github.com/repos/ros/rosdistro/tags?page=#{page}&per_page=100")
+                tags = JSON.parse(data)
+                begin
+                    all_tags.concat tags
+                rescue
+                    puts "cound not get tag information from gitlab api:"
+                    puts tags
+                    return ""
+                end
+                #puts "page #{page} data: #{tags.size}"
+                new_data = tags.size
+                page += 1
+            end
+        
+            #dates = Array.new
+            all_tags.each do |tag|
+                sp = tag['name'].split('/')
+                if (sp[0] == rosdistro) then
+                    # just need the fist entry (latest tag)
+                    return rosdistro + '/' + sp[1]
+                    #puts sp[1]
+                    #dates.push(sp[1])
+                    #break # just need the fist entry (latest tag)
+                end
+            end
+            return ""
+        
         end
 
         def check_pip_gem(osentry)
@@ -102,10 +139,13 @@ module Ros2
             end
         end
 
-        def import(rosversion, date)
-            rostag=rosversion+"/"+date
+        def import(rosversion)
+            rostag=getLatestTag(rosversion)
+            Autoproj.message "Using tag: #{rostag} of https://github.com/ros/rosdistro to generate osdeps" 
             @osdep_file.puts "# based on https://github.com/ros/rosdistro tag #{rostag}\n#"
+            @osdep_file.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
             @rosfile.puts "# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml\n#"
+            @rosfile.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/base.yaml")
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/python.yaml")
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/ruby.yaml")

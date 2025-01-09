@@ -1,0 +1,7795 @@
+#
+# This file is generated, do not edit!
+# based on https://github.com/ros/rosdistro tag rolling/2025-01-02
+#
+# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
+#
+ace:
+    ubuntu: ["libace-dev"]
+
+ack:
+    ubuntu:
+        default: ["ack"]
+
+ack-grep:
+    ubuntu: ["ack-grep"]
+
+acl:
+    ubuntu: ["acl", "libacl1-dev"]
+
+acpi:
+    ubuntu: ["acpi"]
+
+alsa-oss:
+    ubuntu: ["alsa-oss"]
+
+alsa-utils:
+    ubuntu: ["alsa-utils"]
+
+ant:
+    ubuntu: ["ant"]
+
+antlr:
+    ubuntu: ["antlr", "libantlr-dev"]
+
+apache2:
+    ubuntu: ["apache2"]
+
+apache2-mpm-prefork:
+    ubuntu: ["apache2-mpm-prefork"]
+
+apparmor:
+    ubuntu: ["apparmor"]
+
+apr:
+    ubuntu: ["libapr1-dev", "libaprutil1-dev"]
+
+apt-transport-https:
+    ubuntu: ["apt-transport-https"]
+
+aravis:
+    ubuntu:
+        default: ["libaravis-0.8-0", "aravis-tools"]
+        bionic: nonexistent
+        focal: ["libaravis-0.6-0", "aravis-tools"]
+
+aravis-dev:
+    ubuntu:
+        default: ["libaravis-dev"]
+        bionic: nonexistent
+
+arduino-core:
+    ubuntu: ["arduino-core"]
+
+arista:
+    ubuntu: ["arista"]
+
+armadillo:
+    ubuntu: ["libarmadillo-dev"]
+
+asio:
+    ubuntu: ["libasio-dev"]
+
+assimp:
+    ubuntu:
+        default: ["libassimp-dev"]
+
+assimp-dev:
+    ubuntu:
+        default: ["libassimp-dev"]
+
+at-spi2-core:
+    ubuntu: ["at-spi2-core"]
+
+atlas:
+    ubuntu: ["libatlas-base-dev"]
+
+autoconf:
+    ubuntu: ["autoconf"]
+
+autoconf-archive:
+    ubuntu: ["autoconf-archive"]
+
+automake:
+    ubuntu: ["automake"]
+
+autopoint:
+    ubuntu: ["autopoint"]
+
+autossh:
+    ubuntu: ["autossh"]
+
+avahi-daemon:
+    ubuntu: ["avahi-daemon"]
+
+avahi-utils:
+    ubuntu: ["avahi-utils"]
+
+avr-libc:
+    ubuntu: ["avr-libc"]
+
+avrdude:
+    ubuntu: ["avrdude"]
+
+awscli:
+    ubuntu: ["awscli"]
+
+babeltrace:
+    ubuntu: ["babeltrace"]
+
+bandit:
+    ubuntu: ["bandit"]
+
+bazaar:
+    ubuntu: ["bzr"]
+
+beep:
+    ubuntu: ["beep"]
+
+benchmark:
+    ubuntu:
+        default: ["libbenchmark-dev"]
+
+binutils:
+    ubuntu: ["binutils-dev"]
+
+bison:
+    ubuntu: ["bison"]
+
+blender:
+    ubuntu: ["blender"]
+
+bluez:
+    ubuntu: ["bluez"]
+
+boost:
+    ubuntu: ["libboost-all-dev"]
+
+box2d-dev:
+    ubuntu: ["libbox2d-dev"]
+
+bullet:
+    ubuntu:
+        default: ["libbullet-dev"]
+
+bullet-extras:
+    ubuntu: ["libbullet-extras-dev"]
+
+bzip2:
+    ubuntu: ["libbz2-dev"]
+
+ca-certificates:
+    ubuntu: ["ca-certificates"]
+
+can-utils:
+    ubuntu: ["can-utils"]
+
+cargo:
+    ubuntu: ["cargo"]
+
+castxml:
+    ubuntu: ["castxml"]
+
+catch2:
+    ubuntu:
+        default: ["catch2"]
+        focal: nonexistent
+
+cccc:
+    ubuntu: ["cccc"]
+
+cdk:
+    ubuntu: ["libcdk5"]
+
+cdk-dev:
+    ubuntu: ["libcdk5-dev"]
+
+cgal:
+    ubuntu: ["libcgal-dev"]
+
+cgal-qt5-dev:
+    ubuntu: ["libcgal-qt5-dev"]
+
+checkinstall:
+    ubuntu: ["checkinstall"]
+
+chromedriver:
+    ubuntu: ["chromium-chromedriver"]
+
+chromium-browser:
+    ubuntu: ["chromium-browser"]
+
+chrony:
+    ubuntu: ["chrony"]
+
+clang:
+    ubuntu: ["clang"]
+
+clang-format:
+    ubuntu: ["clang-format"]
+
+clang-tidy:
+    ubuntu:
+        default: ["clang-tidy"]
+
+clangd:
+    ubuntu: ["clangd"]
+
+cli11:
+    ubuntu:
+        default: ["libcli11-dev"]
+        focal: nonexistent
+
+cmake:
+    ubuntu: ["cmake"]
+
+coinor-libcbc-dev:
+    ubuntu: ["coinor-libcbc-dev"]
+
+coinor-libcbc3:
+    ubuntu: ["coinor-libcbc3"]
+
+coinor-libcgl-dev:
+    ubuntu: ["coinor-libcgl-dev"]
+
+coinor-libclp-dev:
+    ubuntu: ["coinor-libclp-dev"]
+
+coinor-libcoinutils-dev:
+    ubuntu: ["coinor-libcoinutils-dev"]
+
+coinor-libipopt-dev:
+    ubuntu: ["coinor-libipopt-dev"]
+
+coinor-libosi-dev:
+    ubuntu: ["coinor-libosi-dev"]
+
+collada-dom:
+    ubuntu:
+        default: ["libcollada-dom2.4-dp-dev"]
+
+collectd:
+    ubuntu: ["collectd"]
+
+collectd-utils:
+    ubuntu: ["collectd-utils"]
+
+comedi:
+    ubuntu: ["libcomedi-dev"]
+
+coreutils:
+    ubuntu: ["coreutils"]
+
+couchdb:
+    ubuntu: ["couchdb"]
+
+cppad:
+    ubuntu: ["cppad"]
+
+cppcheck:
+    ubuntu: ["cppcheck"]
+
+cppunit:
+    ubuntu: ["libcppunit-dev"]
+
+cpuburn:
+    ubuntu: ["cpuburn"]
+
+crypto++:
+    ubuntu: ["libcrypto++-dev"]
+
+curl:
+    ubuntu: ["libcurl4-openssl-dev", "curl"]
+
+curlpp-dev:
+    ubuntu: ["libcurlpp-dev"]
+
+cvs:
+    ubuntu: ["cvs"]
+
+cwiid:
+    ubuntu: ["libcwiid1"]
+
+cwiid-dev:
+    ubuntu: ["libcwiid-dev"]
+
+daemontools:
+    ubuntu: ["daemontools"]
+
+darknet:
+    ubuntu: ["darknet"]
+
+dcraw:
+    ubuntu: ["dcraw"]
+
+debhelper:
+    ubuntu: ["debhelper"]
+
+debtree:
+    ubuntu: ["debtree"]
+
+devilspie2:
+    ubuntu: ["devilspie2"]
+
+devscripts:
+    ubuntu: ["devscripts"]
+
+dfu-util:
+    ubuntu: ["dfu-util"]
+
+dh-python:
+    ubuntu: ["dh-python"]
+
+disper:
+    ubuntu: ["disper"]
+
+dkms:
+    ubuntu: ["dkms"]
+
+dnsmasq:
+    ubuntu: ["dnsmasq"]
+
+docker-compose:
+    ubuntu: ["docker-compose"]
+
+docker.io:
+    ubuntu: ["docker.io"]
+
+doxygen:
+    ubuntu: ["doxygen"]
+
+dpkg:
+    ubuntu: ["dpkg"]
+
+dpkg-dev:
+    ubuntu: ["dpkg-dev"]
+
+dvipng:
+    ubuntu: ["dvipng"]
+
+e2fsprogs:
+    ubuntu: ["e2fsprogs"]
+
+eclipse:
+    ubuntu:
+        karmic: ["eclipse", "eclipse-platform", "eclipse-rcp", "eclipse-pde"]
+
+ed:
+    ubuntu: ["ed"]
+
+eigen:
+    ubuntu: ["libeigen3-dev"]
+
+eigen2:
+    ubuntu: ["libeigen2-dev"]
+
+emacs:
+    ubuntu: ["emacs"]
+
+embree:
+    ubuntu:
+        default: ["libembree-dev"]
+        bionic: nonexistent
+
+enblend:
+    ubuntu: ["enblend"]
+
+enet:
+    ubuntu: ["libenet-dev"]
+
+espeak:
+    ubuntu: ["espeak"]
+
+ethtool:
+    ubuntu: ["ethtool"]
+
+exfat-fuse:
+    ubuntu: ["exfat-fuse"]
+
+exfat-utils:
+    ubuntu: ["exfat-utils"]
+
+exiv2:
+    ubuntu: ["exiv2"]
+
+f2c:
+    ubuntu: ["f2c", "libf2c2", "libf2c2-dev"]
+
+fakeroot:
+    ubuntu: ["fakeroot"]
+
+fcgi:
+    ubuntu: ["libfcgi-dev", "libapache2-mod-fastcgi", "spawn-fcgi"]
+
+festival:
+    ubuntu: ["festival", "festvox-kallpc16k"]
+
+festival-dev:
+    ubuntu: ["festival-dev"]
+
+ffmpeg:
+    ubuntu:
+        default: ["ffmpeg", "libavcodec-dev", "libavformat-dev", "libavutil-dev", "libswscale-dev"]
+
+ffmpeg-dev:
+    ubuntu: ["libavcodec-dev", "libavdevice-dev", "libavfilter-dev", "libavformat-dev", "libavutil-dev", "libpostproc-dev", "libswresample-dev", "libswscale-dev"]
+
+ffmpeg2theora:
+    ubuntu: ["ffmpeg2theora"]
+
+file:
+    ubuntu: ["file"]
+
+filezilla:
+    ubuntu: ["filezilla"]
+
+flac:
+    ubuntu: ["flac"]
+
+flawfinder:
+    ubuntu: ["flawfinder"]
+
+flex:
+    ubuntu: ["flex"]
+
+flite:
+    ubuntu: ["flite"]
+
+fltk:
+    ubuntu:
+        bionic: ["fluid", "libfltk1.3-dev"]
+        focal: ["fluid", "libfltk1.3-dev"]
+
+fluid:
+    ubuntu: ["fluid"]
+
+fluidsynth:
+    ubuntu: ["fluidsynth"]
+
+fmt:
+    ubuntu: ["libfmt-dev"]
+
+fonts-noto:
+    ubuntu: ["fonts-noto"]
+
+fonts-roboto:
+    ubuntu: ["fonts-roboto-hinted", "fonts-roboto-unhinted"]
+
+fping:
+    ubuntu: ["fping"]
+
+freeimage:
+    ubuntu: ["libfreeimage-dev"]
+
+freetype:
+    ubuntu: ["libfreetype6"]
+
+fsharp:
+    ubuntu: ["fsharp"]
+
+fswebcam:
+    ubuntu: ["fswebcam"]
+
+ftdi-eeprom:
+    ubuntu: ["ftdi-eeprom"]
+
+fxload:
+    ubuntu: ["fxload"]
+
+g++-10:
+    ubuntu:
+        focal: ["g++-10"]
+        jammy: ["g++-10"]
+
+g++-5-arm-linux-gnueabihf:
+    ubuntu: ["g++-5-arm-linux-gnueabihf"]
+
+g++-5-multilib:
+    ubuntu: ["g++-5-multilib"]
+
+g++-multilib:
+    ubuntu: ["g++-multilib"]
+
+g++-static:
+    ubuntu: ["g++"]
+
+gamin:
+    ubuntu: ["gamin"]
+
+gawk:
+    ubuntu: ["gawk"]
+
+gazebo:
+    ubuntu:
+        bionic: ["gazebo9"]
+        focal: ["gazebo11"]
+        jammy: ["gazebo"]
+
+gazebo11:
+    ubuntu:
+        focal: ["gazebo11"]
+        jammy: ["gazebo"]
+
+gazebo5:
+    ubuntu: ["gazebo5"]
+
+gazebo7:
+    ubuntu: ["gazebo7"]
+
+gazebo9:
+    ubuntu:
+        bionic: ["gazebo9"]
+
+gcc-arm-none-eabi:
+    ubuntu: ["gcc-arm-none-eabi"]
+
+gcc-avr:
+    ubuntu: ["gcc-avr"]
+
+gcc-multilib:
+    ubuntu: ["gcc-multilib"]
+
+gcc-static:
+    ubuntu: ["gcc"]
+
+gccxml:
+    ubuntu: ["gccxml"]
+
+gcovr:
+    ubuntu: ["gcovr"]
+
+gdal-bin:
+    ubuntu: ["gdal-bin"]
+
+geographiclib:
+    ubuntu:
+        default: ["libgeographiclib-dev"]
+        focal: ["libgeographic-dev"]
+        jammy: ["libgeographic-dev"]
+
+geographiclib-tools:
+    ubuntu: ["geographiclib-tools"]
+
+geos:
+    ubuntu: ["libgeos-dev"]
+
+gettext-base:
+    ubuntu: ["gettext-base"]
+
+gforth:
+    ubuntu: ["gforth"]
+
+gfortran:
+    ubuntu: ["gfortran"]
+
+ghc:
+    ubuntu: ["ghc"]
+
+gifsicle:
+    ubuntu: ["gifsicle"]
+
+gimp:
+    ubuntu: ["gimp"]
+
+git:
+    ubuntu: ["git"]
+
+git-lfs:
+    ubuntu: ["git-lfs"]
+
+gitg:
+    ubuntu: ["gitg"]
+
+gitk:
+    ubuntu: ["gitk"]
+
+gksu:
+    ubuntu: ["gksu"]
+
+glpk:
+    ubuntu: ["libglpk-dev"]
+
+glslang-dev:
+    ubuntu: ["glslang-dev"]
+
+glslc:
+    ubuntu:
+        default: ["glslc"]
+        focal: nonexistent
+        jammy: nonexistent
+
+glut:
+    ubuntu: ["freeglut3-dev"]
+
+gnat:
+    ubuntu: ["gnat"]
+
+gnome-terminal:
+    ubuntu: ["gnome-terminal"]
+
+gnuplot:
+    ubuntu: ["gnuplot"]
+
+gnuplot-iostream:
+    ubuntu: ["libgnuplot-iostream-dev"]
+
+gnuplot-x11:
+    ubuntu: ["gnuplot-x11"]
+
+golang-go:
+    ubuntu: ["golang-go"]
+
+google-mock:
+    ubuntu: ["google-mock"]
+
+gpac:
+    ubuntu: ["gpac"]
+
+gperf:
+    ubuntu: ["gperf"]
+
+gperftools:
+    ubuntu: ["google-perftools", "libgoogle-perftools-dev"]
+
+gpg-agent:
+    ubuntu:
+        default: ["gpg-agent"]
+
+gphoto2:
+    ubuntu: ["gphoto2"]
+
+gprbuild:
+    ubuntu: ["gprbuild"]
+
+gpsd:
+    ubuntu: ["gpsd"]
+
+gradle:
+    ubuntu: ["gradle"]
+
+graphicsmagick:
+    ubuntu: ["libgraphicsmagick++1-dev", "graphicsmagick-libmagick-dev-compat"]
+
+graphviz:
+    ubuntu: ["graphviz"]
+
+graphviz-dev:
+    ubuntu: ["libgraphviz-dev"]
+
+gringo:
+    ubuntu: ["gringo"]
+
+gstreamer0.10-plugins-good:
+    ubuntu: ["gstreamer0.10-plugins-good"]
+
+gstreamer0.10-pocketsphinx:
+    ubuntu: ["gstreamer0.10-pocketsphinx"]
+
+gstreamer1.0:
+    ubuntu: ["gstreamer1.0-tools", "libgstreamer1.0-0", "gir1.2-gstreamer-1.0"]
+
+gstreamer1.0-alsa:
+    ubuntu: ["gstreamer1.0-alsa"]
+
+gstreamer1.0-gl:
+    ubuntu:
+        default: ["gstreamer1.0-gl"]
+
+gstreamer1.0-libav:
+    ubuntu: ["gstreamer1.0-libav"]
+
+gstreamer1.0-plugins-bad:
+    ubuntu: ["gstreamer1.0-plugins-bad"]
+
+gstreamer1.0-plugins-base:
+    ubuntu: ["gstreamer1.0-plugins-base", "libgstreamer-plugins-base1.0-0", "gir1.2-gst-plugins-base-1.0"]
+
+gstreamer1.0-plugins-good:
+    ubuntu: ["gstreamer1.0-plugins-good", "libgstreamer-plugins-good1.0-0"]
+
+gstreamer1.0-plugins-ugly:
+    ubuntu: ["gstreamer1.0-plugins-ugly"]
+
+gstreamer1.0-rtsp:
+    ubuntu: ["gstreamer1.0-rtsp"]
+
+gstreamer1.0-tools:
+    ubuntu: ["gstreamer1.0-tools"]
+
+gstreamer1.0-x:
+    ubuntu: ["gstreamer1.0-x"]
+
+gtest:
+    ubuntu: ["libgtest-dev"]
+
+gtk-doc-tools:
+    ubuntu: ["gtk-doc-tools"]
+
+gtk2:
+    ubuntu: ["libgtk2.0-dev"]
+
+gtk3:
+    ubuntu: ["libgtk-3-dev"]
+
+gurumdds-2.6:
+    ubuntu:
+        bionic: ["gurumdds-2.6"]
+        focal: ["gurumdds-2.6"]
+
+gurumdds-2.7:
+    ubuntu:
+        bionic: ["gurumdds-2.7"]
+        focal: ["gurumdds-2.7"]
+
+gurumdds-2.8:
+    ubuntu:
+        bionic: ["gurumdds-2.8"]
+        focal: ["gurumdds-2.8"]
+        jammy: ["gurumdds-2.8"]
+
+gurumdds-3.0:
+    ubuntu:
+        jammy: ["gurumdds-3.0"]
+
+gv:
+    ubuntu: ["gv"]
+
+gz-citadel:
+    ubuntu:
+        focal: ["gz-citadel"]
+
+gz-cmake2:
+    ubuntu:
+        focal: ["libgz-cmake2-dev"]
+        jammy: ["libgz-cmake2-dev"]
+
+gz-common3:
+    ubuntu:
+        focal: ["libgz-common3-dev"]
+
+gz-common4:
+    ubuntu:
+        focal: ["libgz-common4-dev"]
+        jammy: ["libgz-common4-dev"]
+
+gz-fortress:
+    ubuntu:
+        focal: ["gz-fortress"]
+        jammy: ["gz-fortress"]
+
+gz-fuel-tools4:
+    ubuntu:
+        focal: ["libgz-fuel-tools4-dev"]
+
+gz-fuel-tools7:
+    ubuntu:
+        focal: ["libgz-fuel-tools7-dev"]
+        jammy: ["libgz-fuel-tools7-dev"]
+
+gz-gui3:
+    ubuntu:
+        focal: ["libgz-gui3-dev"]
+
+gz-gui6:
+    ubuntu:
+        focal: ["libgz-gui6-dev"]
+        jammy: ["libgz-gui6-dev"]
+
+gz-launch2:
+    ubuntu:
+        focal: ["libgz-launch2-dev"]
+
+gz-launch5:
+    ubuntu:
+        focal: ["libgz-launch5-dev"]
+        jammy: ["libgz-launch5-dev"]
+
+gz-math6:
+    ubuntu:
+        focal: ["libgz-math6-dev"]
+        jammy: ["libgz-math6-dev"]
+
+gz-math6-eigen3:
+    ubuntu:
+        focal: ["libgz-math6-eigen3-dev"]
+        jammy: ["libgz-math6-eigen3-dev"]
+
+gz-msgs5:
+    ubuntu:
+        focal: ["libgz-msgs5-dev"]
+
+gz-msgs8:
+    ubuntu:
+        focal: ["libgz-msgs8-dev"]
+        jammy: ["libgz-msgs8-dev"]
+
+gz-physics2:
+    ubuntu:
+        focal: ["libgz-physics2-dev"]
+
+gz-physics5:
+    ubuntu:
+        focal: ["libgz-physics5-dev"]
+        jammy: ["libgz-physics5-dev"]
+
+gz-plugin:
+    ubuntu:
+        focal: ["libgz-plugin-dev"]
+        jammy: ["libgz-plugin-dev"]
+
+gz-rendering3:
+    ubuntu:
+        focal: ["libgz-rendering3-dev"]
+
+gz-rendering6:
+    ubuntu:
+        focal: ["libgz-rendering6-dev"]
+        jammy: ["libgz-rendering6-dev"]
+
+gz-sensors3:
+    ubuntu:
+        focal: ["libgz-sensors3-dev"]
+
+gz-sensors6:
+    ubuntu:
+        focal: ["libgz-sensors6-dev"]
+        jammy: ["libgz-sensors6-dev"]
+
+gz-sim3:
+    ubuntu:
+        focal: ["libgz-sim3-dev"]
+
+gz-sim6:
+    ubuntu:
+        focal: ["libgz-sim6-dev"]
+        jammy: ["libgz-sim6-dev"]
+
+gz-sim6-plugins:
+    ubuntu:
+        focal: ["libgz-sim6-plugins"]
+        jammy: ["libgz-sim6-plugins"]
+
+gz-tools:
+    ubuntu:
+        focal: ["libgz-tools-dev"]
+        jammy: ["libgz-tools-dev"]
+
+gz-transport11:
+    ubuntu:
+        focal: ["libgz-transport11-dev"]
+        jammy: ["libgz-transport11-dev"]
+
+gz-transport8:
+    ubuntu:
+        focal: ["libgz-transport8-dev"]
+
+gz-utils1:
+    ubuntu:
+        focal: ["libgz-utils1-dev"]
+        jammy: ["libgz-utils1-dev"]
+
+gz-utils1-cli:
+    ubuntu:
+        focal: ["libgz-utils1-cli-dev"]
+        jammy: ["libgz-utils1-cli-dev"]
+
+haproxy:
+    ubuntu: ["haproxy"]
+
+hddtemp:
+    ubuntu:
+        default: nonexistent
+        bionic: ["hddtemp"]
+        focal: ["hddtemp"]
+
+hdf5:
+    ubuntu: ["libhdf5-dev"]
+
+hdf5-tools:
+    ubuntu: ["hdf5-tools"]
+
+hostapd:
+    ubuntu: ["hostapd"]
+
+hostname:
+    ubuntu: ["hostname"]
+
+htop:
+    ubuntu: ["htop"]
+
+hugin-tools:
+    ubuntu: ["hugin-tools"]
+
+i2c-tools:
+    ubuntu: ["i2c-tools"]
+
+ifstat:
+    ubuntu: ["ifstat"]
+
+ignition-citadel:
+    ubuntu:
+        focal: ["ignition-citadel"]
+
+ignition-cmake2:
+    ubuntu:
+        focal: ["libignition-cmake2-dev"]
+        jammy: ["libignition-cmake2-dev"]
+
+ignition-common3:
+    ubuntu:
+        focal: ["libignition-common3-dev"]
+
+ignition-common4:
+    ubuntu:
+        focal: ["libignition-common4-dev"]
+        jammy: ["libignition-common4-dev"]
+
+ignition-edifice:
+    ubuntu:
+        focal: ["ignition-edifice"]
+
+ignition-fortress:
+    ubuntu:
+        focal: ["ignition-fortress"]
+        jammy: ["ignition-fortress"]
+
+ignition-fuel-tools4:
+    ubuntu:
+        focal: ["libignition-fuel-tools4-dev"]
+
+ignition-fuel-tools6:
+    ubuntu:
+        focal: ["libignition-fuel-tools6-dev"]
+
+ignition-fuel-tools7:
+    ubuntu:
+        focal: ["libignition-fuel-tools7-dev"]
+        jammy: ["libignition-fuel-tools7-dev"]
+
+ignition-gazebo3:
+    ubuntu:
+        focal: ["libignition-gazebo3-dev"]
+
+ignition-gazebo5:
+    ubuntu:
+        focal: ["libignition-gazebo5-dev"]
+
+ignition-gazebo5-plugins:
+    ubuntu:
+        focal: ["libignition-gazebo5-plugins"]
+
+ignition-gazebo6:
+    ubuntu:
+        focal: ["libignition-gazebo6-dev"]
+        jammy: ["libignition-gazebo6-dev"]
+
+ignition-gazebo6-plugins:
+    ubuntu:
+        focal: ["libignition-gazebo6-plugins"]
+        jammy: ["libignition-gazebo6-plugins"]
+
+ignition-gui3:
+    ubuntu:
+        focal: ["libignition-gui3-dev"]
+
+ignition-gui5:
+    ubuntu:
+        focal: ["libignition-gui5-dev"]
+
+ignition-gui6:
+    ubuntu:
+        focal: ["libignition-gui6-dev"]
+        jammy: ["libignition-gui6-dev"]
+
+ignition-launch2:
+    ubuntu:
+        focal: ["libignition-launch2-dev"]
+
+ignition-launch4:
+    ubuntu:
+        focal: ["libignition-launch4-dev"]
+
+ignition-launch5:
+    ubuntu:
+        focal: ["libignition-launch5-dev"]
+        jammy: ["libignition-launch5-dev"]
+
+ignition-math6:
+    ubuntu:
+        focal: ["libignition-math6-dev"]
+        jammy: ["libignition-math6-dev"]
+
+ignition-math6-eigen3:
+    ubuntu:
+        focal: ["libignition-math6-eigen3-dev"]
+        jammy: ["libignition-math6-eigen3-dev"]
+
+ignition-msgs5:
+    ubuntu:
+        focal: ["libignition-msgs5-dev"]
+
+ignition-msgs7:
+    ubuntu:
+        focal: ["libignition-msgs7-dev"]
+
+ignition-msgs8:
+    ubuntu:
+        focal: ["libignition-msgs8-dev"]
+        jammy: ["libignition-msgs8-dev"]
+
+ignition-physics2:
+    ubuntu:
+        focal: ["libignition-physics2-dev"]
+
+ignition-physics4:
+    ubuntu:
+        focal: ["libignition-physics4-dev"]
+
+ignition-physics5:
+    ubuntu:
+        focal: ["libignition-physics5-dev"]
+        jammy: ["libignition-physics5-dev"]
+
+ignition-plugin:
+    ubuntu:
+        focal: ["libignition-plugin-dev"]
+        jammy: ["libignition-plugin-dev"]
+
+ignition-rendering3:
+    ubuntu:
+        focal: ["libignition-rendering3-dev"]
+
+ignition-rendering5:
+    ubuntu:
+        focal: ["libignition-rendering5-dev"]
+
+ignition-rendering6:
+    ubuntu:
+        focal: ["libignition-rendering6-dev"]
+        jammy: ["libignition-rendering6-dev"]
+
+ignition-sensors3:
+    ubuntu:
+        focal: ["libignition-sensors3-dev"]
+
+ignition-sensors5:
+    ubuntu:
+        focal: ["libignition-sensors5-dev"]
+
+ignition-sensors6:
+    ubuntu:
+        focal: ["libignition-sensors6-dev"]
+        jammy: ["libignition-sensors6-dev"]
+
+ignition-tools:
+    ubuntu:
+        focal: ["libignition-tools-dev"]
+        jammy: ["libignition-tools-dev"]
+
+ignition-transport10:
+    ubuntu:
+        focal: ["libignition-transport10-dev"]
+
+ignition-transport11:
+    ubuntu:
+        focal: ["libignition-transport11-dev"]
+        jammy: ["libignition-transport11-dev"]
+
+ignition-transport8:
+    ubuntu:
+        focal: ["libignition-transport8-dev"]
+
+ignition-utils1:
+    ubuntu:
+        focal: ["libignition-utils1-dev"]
+        jammy: ["libignition-utils1-dev"]
+
+ignition-utils1-cli:
+    ubuntu:
+        focal: ["libignition-utils1-cli-dev"]
+        jammy: ["libignition-utils1-cli-dev"]
+
+imagemagick:
+    ubuntu: ["imagemagick"]
+
+intel-opencl-icd:
+    ubuntu:
+        default: ["intel-opencl-icd"]
+        bionic: nonexistent
+
+intltool:
+    ubuntu: ["intltool"]
+
+inxi:
+    ubuntu: ["inxi"]
+
+iperf:
+    ubuntu: ["iperf"]
+
+ipmitool:
+    ubuntu: ["ipmitool"]
+
+iproute2:
+    ubuntu: ["iproute2"]
+
+iputils-ping:
+    ubuntu: ["iputils-ping"]
+
+iwyu:
+    ubuntu: ["iwyu"]
+
+jack:
+    ubuntu: ["libjack-jackd2-dev"]
+
+java:
+    ubuntu: ["default-jdk"]
+
+joystick:
+    ubuntu: ["joystick"]
+
+jq:
+    ubuntu: ["jq"]
+
+julius-voxforge:
+    ubuntu: ["julius-voxforge"]
+
+jython:
+    ubuntu: ["jython"]
+
+kakasi:
+    ubuntu: ["kakasi"]
+
+kate:
+    ubuntu: ["kate"]
+
+kgraphviewer:
+    ubuntu: ["kgraphviewer"]
+
+konsole:
+    ubuntu: ["konsole"]
+
+language-pack-de:
+    ubuntu: ["language-pack-de"]
+
+language-pack-en:
+    ubuntu: ["language-pack-en"]
+
+lcov:
+    ubuntu: ["lcov"]
+
+lensfun:
+    ubuntu: ["liblensfun1"]
+
+lensfun-dev:
+    ubuntu: ["liblensfun-dev"]
+
+leveldb:
+    ubuntu: ["libleveldb-dev"]
+
+lib32asound2:
+    ubuntu: ["lib32asound2"]
+
+libabsl-dev:
+    ubuntu:
+        default: ["libabsl-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libadolc-dev:
+    ubuntu: ["libadolc-dev"]
+
+libalglib-dev:
+    ubuntu: ["libalglib-dev"]
+
+libann-dev:
+    ubuntu: ["libann-dev"]
+
+libao-dev:
+    ubuntu: ["libao-dev"]
+
+libapache2-mod-python:
+    ubuntu: ["libapache2-mod-python"]
+
+libargtable2-dev:
+    ubuntu: ["libargtable2-dev"]
+
+libaria:
+    ubuntu:
+        default: ["libaria-dev"]
+
+libasound2-dev:
+    ubuntu: ["libasound2-dev"]
+
+libatomic:
+    ubuntu: ["libatomic1"]
+
+libav:
+    ubuntu:
+        default: nonexistent
+
+libavahi-client-dev:
+    ubuntu: ["libavahi-client-dev"]
+
+libavahi-core-dev:
+    ubuntu: ["libavahi-core-dev"]
+
+libavdevice-dev:
+    ubuntu: ["libavdevice-dev"]
+
+libb64-dev:
+    ubuntu: ["libb64-dev"]
+
+libbackward-cpp-dev:
+    ubuntu:
+        default: ["libbackward-cpp-dev"]
+        bionic: nonexistent
+
+libbdd-dev:
+    ubuntu: ["libbdd-dev"]
+
+libblas-dev:
+    ubuntu: ["libblas-dev"]
+
+libblosc-dev:
+    ubuntu: ["libblosc-dev"]
+
+libbluetooth:
+    ubuntu: ["libbluetooth3"]
+
+libbluetooth-dev:
+    ubuntu: ["libbluetooth-dev"]
+
+libboost-atomic:
+    ubuntu:
+        bionic: ["libboost-atomic1.65.1"]
+        focal: ["libboost-atomic1.71.0"]
+        jammy: ["libboost-atomic1.74.0"]
+        noble: ["libboost-atomic1.83.0"]
+
+libboost-atomic-dev:
+    ubuntu: ["libboost-atomic-dev"]
+
+libboost-chrono:
+    ubuntu:
+        bionic: ["libboost-chrono1.65.1"]
+        focal: ["libboost-chrono1.71.0"]
+        jammy: ["libboost-chrono1.74.0"]
+        noble: ["libboost-chrono1.83.0"]
+
+libboost-chrono-dev:
+    ubuntu: ["libboost-chrono-dev"]
+
+libboost-coroutine:
+    ubuntu:
+        bionic: ["libboost-coroutine1.65.1"]
+        focal: ["libboost-coroutine1.71.0"]
+        jammy: ["libboost-coroutine1.74.0"]
+        noble: ["libboost-coroutine1.83.0"]
+
+libboost-coroutine-dev:
+    ubuntu: ["libboost-coroutine-dev"]
+
+libboost-date-time:
+    ubuntu:
+        bionic: ["libboost-date-time1.65.1"]
+        focal: ["libboost-date-time1.71.0"]
+        jammy: ["libboost-date-time1.74.0"]
+        noble: ["libboost-date-time1.83.0"]
+
+libboost-date-time-dev:
+    ubuntu: ["libboost-date-time-dev"]
+
+libboost-dev:
+    ubuntu: ["libboost-dev"]
+
+libboost-filesystem:
+    ubuntu:
+        bionic: ["libboost-filesystem1.65.1"]
+        focal: ["libboost-filesystem1.71.0"]
+        jammy: ["libboost-filesystem1.74.0"]
+        noble: ["libboost-filesystem1.83.0"]
+
+libboost-filesystem-dev:
+    ubuntu: ["libboost-filesystem-dev"]
+
+libboost-iostreams:
+    ubuntu:
+        bionic: ["libboost-iostreams1.65.1"]
+        focal: ["libboost-iostreams1.71.0"]
+        jammy: ["libboost-iostreams1.74.0"]
+        noble: ["libboost-iostreams1.83.0"]
+
+libboost-iostreams-dev:
+    ubuntu: ["libboost-iostreams-dev"]
+
+libboost-math:
+    ubuntu:
+        bionic: ["libboost-math1.65.1"]
+        focal: ["libboost-math1.71.0"]
+        jammy: ["libboost-math1.74.0"]
+        noble: ["libboost-math1.83.0"]
+
+libboost-math-dev:
+    ubuntu: ["libboost-math-dev"]
+
+libboost-numpy-dev:
+    ubuntu: ["libboost-numpy-dev"]
+
+libboost-program-options:
+    ubuntu:
+        bionic: ["libboost-program-options1.65.1"]
+        focal: ["libboost-program-options1.71.0"]
+        jammy: ["libboost-program-options1.74.0"]
+        noble: ["libboost-program-options1.83.0"]
+
+libboost-program-options-dev:
+    ubuntu: ["libboost-program-options-dev"]
+
+libboost-python:
+    ubuntu:
+        bionic: ["libboost-python1.65.1"]
+        focal: ["libboost-python1.71.0"]
+        jammy: ["libboost-python1.74.0"]
+        noble: ["libboost-python1.83.0"]
+
+libboost-python-dev:
+    ubuntu: ["libboost-python-dev"]
+
+libboost-random:
+    ubuntu:
+        bionic: ["libboost-random1.65.1"]
+        focal: ["libboost-random1.71.0"]
+        jammy: ["libboost-random1.74.0"]
+        noble: ["libboost-random1.83.0"]
+
+libboost-random-dev:
+    ubuntu: ["libboost-random-dev"]
+
+libboost-regex:
+    ubuntu:
+        bionic: ["libboost-regex1.65.1"]
+        focal: ["libboost-regex1.71.0"]
+        jammy: ["libboost-regex1.74.0"]
+        noble: ["libboost-regex1.83.0"]
+
+libboost-regex-dev:
+    ubuntu: ["libboost-regex-dev"]
+
+libboost-serialization:
+    ubuntu:
+        bionic: ["libboost-serialization1.65.1"]
+        focal: ["libboost-serialization1.71.0"]
+        jammy: ["libboost-serialization1.74.0"]
+        noble: ["libboost-serialization1.83.0"]
+
+libboost-serialization-dev:
+    ubuntu: ["libboost-serialization-dev"]
+
+libboost-system:
+    ubuntu:
+        bionic: ["libboost-system1.65.1"]
+        focal: ["libboost-system1.71.0"]
+        jammy: ["libboost-system1.74.0"]
+        noble: ["libboost-system1.83.0"]
+
+libboost-system-dev:
+    ubuntu: ["libboost-system-dev"]
+
+libboost-thread:
+    ubuntu:
+        bionic: ["libboost-thread1.65.1"]
+        focal: ["libboost-thread1.71.0"]
+        jammy: ["libboost-thread1.74.0"]
+        noble: ["libboost-thread1.83.0"]
+
+libboost-thread-dev:
+    ubuntu: ["libboost-thread-dev"]
+
+libboost-timer:
+    ubuntu:
+        bionic: ["libboost-timer1.65.1"]
+        focal: ["libboost-timer1.71.0"]
+        jammy: ["libboost-timer1.74.0"]
+        noble: ["libboost-timer1.83.0"]
+
+libboost-timer-dev:
+    ubuntu: ["libboost-timer-dev"]
+
+libbsd-dev:
+    ubuntu: ["libbsd-dev"]
+
+libcairo2-dev:
+    ubuntu: ["libcairo2-dev"]
+
+libcap-dev:
+    ubuntu: ["libcap-dev"]
+
+libcap-ng-dev:
+    ubuntu: ["libcap-ng-dev"]
+
+libcap-ng0:
+    ubuntu: ["libcap-ng0"]
+
+libcap2:
+    ubuntu: ["libcap2"]
+
+libcap2-bin:
+    ubuntu: ["libcap2-bin"]
+
+libccd-dev:
+    ubuntu: ["libccd-dev"]
+
+libccid:
+    ubuntu: ["libccid"]
+
+libcdd-dev:
+    ubuntu: ["libcdd-dev"]
+
+libcegui-mk2-dev:
+    ubuntu: ["libcegui-mk2-dev"]
+
+libcereal-dev:
+    ubuntu: ["libcereal-dev"]
+
+libceres-dev:
+    ubuntu: ["libceres-dev"]
+
+libcgroup-dev:
+    ubuntu: ["libcgroup-dev"]
+
+libclang-dev:
+    ubuntu: ["libclang-dev"]
+
+libcoin60-dev:
+    ubuntu: ["libcoin60-dev"]
+
+libcoin80-dev:
+    ubuntu:
+        default: ["libcoin-dev"]
+        bionic: ["libcoin80-dev"]
+
+libconfig++-dev:
+    ubuntu: ["libconfig++-dev"]
+
+libconfig-dev:
+    ubuntu: ["libconfig-dev"]
+
+libconsole-bridge-dev:
+    ubuntu: ["libconsole-bridge-dev"]
+
+libcos4-dev:
+    ubuntu: ["libcos4-dev"]
+
+libcpp-httplib-dev:
+    ubuntu:
+        default: ["libcpp-httplib-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libcpprest-dev:
+    ubuntu: ["libcpprest-dev"]
+
+libcunit-dev:
+    ubuntu: ["libcunit1-dev"]
+
+libcurl:
+    ubuntu: ["libcurl4"]
+
+libcurl-dev:
+    ubuntu: ["libcurl4-openssl-dev"]
+
+libdbus-dev:
+    ubuntu: ["libdbus-1-dev"]
+
+libdc1394-dev:
+    ubuntu:
+        default: ["libdc1394-dev"]
+        bionic: ["libdc1394-22-dev"]
+        focal: ["libdc1394-22-dev"]
+
+libdevil-dev:
+    ubuntu: ["libdevil-dev"]
+
+libdlib-dev:
+    ubuntu:
+        default: ["libdlib-dev"]
+
+libdmtx-dev:
+    ubuntu: ["libdmtx-dev"]
+
+libdpkg-dev:
+    ubuntu: ["libdpkg-dev"]
+
+libdraco-dev:
+    ubuntu:
+        default: ["libdraco-dev"]
+        focal: nonexistent
+
+libdrm-dev:
+    ubuntu: ["libdrm-dev"]
+
+libdw-dev:
+    ubuntu: ["libdw-dev"]
+
+libdxflib-dev:
+    ubuntu: ["libdxflib-dev"]
+
+libedit:
+    ubuntu: ["libedit2"]
+
+libedit-dev:
+    ubuntu: ["libedit-dev"]
+
+libepoxy-dev:
+    ubuntu: ["libepoxy-dev"]
+
+libesd0-dev:
+    ubuntu: ["libesd0-dev"]
+
+libespeak-dev:
+    ubuntu: ["libespeak-dev"]
+
+libespeak-ng1:
+    ubuntu: ["libespeak-ng1"]
+
+libestools-dev:
+    ubuntu:
+        default: ["libestools-dev"]
+
+libev-dev:
+    ubuntu: ["libev-dev"]
+
+libevdev-dev:
+    ubuntu: ["libevdev-dev"]
+
+libevent-dev:
+    ubuntu: ["libevent-dev"]
+
+libexif:
+    ubuntu: ["libexif12"]
+
+libexif-dev:
+    ubuntu: ["libexif-dev"]
+
+libexiv2-dev:
+    ubuntu: ["libexiv2-dev"]
+
+libexpat1-dev:
+    ubuntu: ["libexpat1-dev"]
+
+libext2fs-dev:
+    ubuntu: ["libext2fs-dev"]
+
+libfcl:
+    ubuntu:
+        default: ["libfcl0.7"]
+        focal: ["libfcl0.5"]
+
+libfcl-dev:
+    ubuntu:
+        default: ["libfcl-dev"]
+
+libffi-dev:
+    ubuntu: ["libffi-dev"]
+
+libfftw3:
+    ubuntu: ["libfftw3-3", "libfftw3-dev"]
+
+libfl-dev:
+    ubuntu: ["libfl-dev"]
+
+libflann:
+    ubuntu:
+        default: ["libflann1.9"]
+
+libflann-dev:
+    ubuntu: ["libflann-dev"]
+
+libflatbuffers-dev:
+    ubuntu: ["libflatbuffers-dev"]
+
+libfltk-dev:
+    ubuntu: ["libfltk1.3-dev"]
+
+libfontconfig1-dev:
+    ubuntu: ["libfontconfig1-dev"]
+
+libfreeimage:
+    ubuntu: ["libfreeimage3"]
+
+libfreeimage-dev:
+    ubuntu: ["libfreeimage-dev"]
+
+libfreenect-dev:
+    ubuntu: ["libfreenect-dev"]
+
+libfreetype-dev:
+    ubuntu:
+        default: ["libfreetype-dev"]
+        bionic: ["libfreetype6-dev"]
+
+libfreetype6:
+    ubuntu: ["libfreetype6"]
+
+libfreetype6-dev:
+    ubuntu: ["libfreetype6-dev"]
+
+libftdi-dev:
+    ubuntu: ["libftdi-dev"]
+
+libftdi1-dev:
+    ubuntu: ["libftdi1-dev"]
+
+libftdipp-dev:
+    ubuntu:
+        bionic: ["libftdipp1-dev"]
+
+libftgl-dev:
+    ubuntu: ["libftgl-dev"]
+
+libfyaml-dev:
+    ubuntu:
+        default: ["libfyaml-dev"]
+        focal: nonexistent
+
+libgazebo-dev:
+    ubuntu:
+        focal: ["libgazebo11-dev"]
+        jammy: ["libgazebo-dev"]
+
+libgazebo11-dev:
+    ubuntu:
+        focal: ["libgazebo11-dev"]
+        jammy: ["libgazebo-dev"]
+
+libgazebo5-dev:
+    ubuntu: ["libgazebo5-dev"]
+
+libgazebo7-dev:
+    ubuntu: ["libgazebo7-dev"]
+
+libgazebo9-dev:
+    ubuntu:
+        bionic: ["libgazebo9-dev"]
+
+libgconf2:
+    ubuntu: ["libgconf-2-4"]
+
+libgdal-dev:
+    ubuntu: ["libgdal-dev"]
+
+libgeographiclib-dev:
+    ubuntu: ["libgeographiclib-dev"]
+
+libgeos++-dev:
+    ubuntu: ["libgeos++-dev"]
+
+libgeotiff-dev:
+    ubuntu: ["libgeotiff-dev"]
+
+libgflags-dev:
+    ubuntu: ["libgflags-dev"]
+
+libgfortran3:
+    ubuntu: ["libgfortran3"]
+
+libgif-dev:
+    ubuntu: ["libgif-dev"]
+
+libglew-dev:
+    ubuntu: ["libglew-dev"]
+
+libglfw3-dev:
+    ubuntu:
+        default: ["libglfw3-dev"]
+
+libglib-dev:
+    ubuntu: ["libglib2.0-dev"]
+
+libglm-dev:
+    ubuntu: ["libglm-dev"]
+
+libglui-dev:
+    ubuntu: ["libglui-dev"]
+
+libglw1-mesa:
+    ubuntu: ["libglw1-mesa"]
+
+libgmock-dev:
+    ubuntu:
+        default: ["libgmock-dev"]
+        bionic: nonexistent
+
+libgmp:
+    ubuntu: ["libgmp-dev"]
+
+libgnutls28-dev:
+    ubuntu: ["libgnutls28-dev"]
+
+libgomp1:
+    ubuntu: ["libgomp1"]
+
+libgoogle-glog-dev:
+    ubuntu: ["libgoogle-glog-dev"]
+
+libgpgme-dev:
+    ubuntu:
+        default: ["libgpgme-dev"]
+
+libgphoto-dev:
+    ubuntu:
+        default: ["libgphoto2-dev"]
+
+libgpiod-dev:
+    ubuntu: ["libgpiod-dev"]
+
+libgps:
+    ubuntu: ["libgps-dev"]
+
+libgrpc:
+    ubuntu: ["libgrpc++-dev"]
+
+libgsl:
+    ubuntu:
+        default: ["libgsl-dev"]
+
+libgstreamer-plugins-bad1.0-dev:
+    ubuntu: ["libgstreamer-plugins-bad1.0-dev"]
+
+libgstreamer-plugins-base0.10-0:
+    ubuntu: ["libgstreamer-plugins-base0.10-0"]
+
+libgstreamer-plugins-base0.10-dev:
+    ubuntu: ["libgstreamer-plugins-base0.10-dev"]
+
+libgstreamer-plugins-base1.0-dev:
+    ubuntu: ["libgstreamer-plugins-base1.0-dev"]
+
+libgstreamer0.10-0:
+    ubuntu: ["libgstreamer0.10-0"]
+
+libgstreamer0.10-dev:
+    ubuntu: ["libgstreamer0.10-dev"]
+
+libgstreamer1.0-dev:
+    ubuntu: ["libgstreamer1.0-dev"]
+
+libgstrtspserver-1.0-0:
+    ubuntu: ["libgstrtspserver-1.0-0"]
+
+libgstrtspserver-1.0-dev:
+    ubuntu: ["libgstrtspserver-1.0-dev"]
+
+libgtkmm:
+    ubuntu: ["libgtkmm-2.4-dev"]
+
+libgtkmm3.0-dev:
+    ubuntu: ["libgtkmm-3.0-dev"]
+
+libgts:
+    ubuntu: ["libgts-dev"]
+
+libhal-dev:
+    ubuntu: ["libhal-dev"]
+
+libhdf5-dev:
+    ubuntu: ["libhdf5-dev"]
+
+libhidapi-dev:
+    ubuntu: ["libhidapi-dev"]
+
+libhpptools-dev:
+    ubuntu: ["libhpptools-dev"]
+
+libi2c-dev:
+    ubuntu: ["libi2c-dev"]
+
+libicu-dev:
+    ubuntu: ["libicu-dev"]
+
+libignition-common3:
+    ubuntu:
+        focal: ["libignition-common3"]
+
+libignition-common4:
+    ubuntu:
+        focal: ["libignition-common4"]
+
+libignition-fuel-tools4:
+    ubuntu:
+        focal: ["libignition-fuel-tools4"]
+
+libignition-fuel-tools6:
+    ubuntu:
+        focal: ["libignition-fuel-tools6"]
+
+libignition-gazebo3:
+    ubuntu:
+        focal: ["libignition-gazebo3"]
+
+libignition-gazebo5:
+    ubuntu:
+        focal: ["libignition-gazebo5"]
+
+libignition-gui3:
+    ubuntu:
+        focal: ["libignition-gui3"]
+
+libignition-gui5:
+    ubuntu:
+        focal: ["libignition-gui5"]
+
+libignition-launch2:
+    ubuntu:
+        focal: ["libignition-launch2"]
+
+libignition-launch4:
+    ubuntu:
+        focal: ["libignition-launch4"]
+
+libignition-math6:
+    ubuntu:
+        focal: ["libignition-math6"]
+
+libignition-msgs5:
+    ubuntu:
+        focal: ["libignition-msgs5"]
+
+libignition-msgs7:
+    ubuntu:
+        focal: ["libignition-msgs7"]
+
+libignition-physics2:
+    ubuntu:
+        focal: ["libignition-physics2"]
+
+libignition-physics4:
+    ubuntu:
+        focal: ["libignition-physics4"]
+
+libignition-rendering3:
+    ubuntu:
+        focal: ["libignition-rendering3"]
+
+libignition-rendering5:
+    ubuntu:
+        focal: ["libignition-rendering5"]
+
+libignition-sensors3:
+    ubuntu:
+        focal: ["libignition-sensors3"]
+
+libignition-sensors5:
+    ubuntu:
+        focal: ["libignition-sensors5"]
+
+libignition-transport10:
+    ubuntu:
+        focal: ["libignition-transport10"]
+
+libignition-transport8:
+    ubuntu:
+        focal: ["libignition-transport8"]
+
+libignition-utils1:
+    ubuntu:
+        focal: ["libignition-utils1"]
+
+libiio-dev:
+    ubuntu: ["libiio-dev"]
+
+libimage-exiftool-perl:
+    ubuntu: ["libimage-exiftool-perl"]
+
+libirrlicht-dev:
+    ubuntu: ["libirrlicht-dev"]
+
+libiw-dev:
+    ubuntu: ["libiw-dev"]
+
+libjack-dev:
+    ubuntu: ["libjack-dev"]
+
+libjackson-json-java:
+    ubuntu: ["libjackson-json-java"]
+
+libjansson-dev:
+    ubuntu: ["libjansson-dev"]
+
+libjchart2d-java:
+    ubuntu: ["libjchart2d-java"]
+
+libjpeg:
+    ubuntu: ["libjpeg-dev"]
+
+libjson-glib:
+    ubuntu: ["libjson-glib-dev"]
+
+libjson-java:
+    ubuntu: ["libjson-java"]
+
+libjson0-dev:
+    ubuntu: ["libjson0-dev"]
+
+libjsoncpp:
+    ubuntu:
+        default: ["libjsoncpp25"]
+        bionic: ["libjsoncpp1"]
+        focal: ["libjsoncpp1"]
+
+libjsoncpp-dev:
+    ubuntu: ["libjsoncpp-dev"]
+
+libjsonrpccpp-client0:
+    ubuntu: ["libjsonrpccpp-client0"]
+
+libjsonrpccpp-common0:
+    ubuntu: ["libjsonrpccpp-common0"]
+
+libjsonrpccpp-dev:
+    ubuntu: ["libjsonrpccpp-dev"]
+
+libjsonrpccpp-server0:
+    ubuntu: ["libjsonrpccpp-server0"]
+
+libjsonrpccpp-stub0:
+    ubuntu: ["libjsonrpccpp-stub0"]
+
+libjsonrpccpp-tools:
+    ubuntu: ["libjsonrpccpp-tools"]
+
+libkdtree++-dev:
+    ubuntu: ["libkdtree++-dev"]
+
+libkml-dev:
+    ubuntu: ["libkml-dev"]
+
+liblapack-dev:
+    ubuntu: ["liblapack-dev"]
+
+liblapacke-dev:
+    ubuntu: ["liblapacke-dev"]
+
+liblcm:
+    ubuntu:
+        default: ["liblcm1"]
+
+liblcm-dev:
+    ubuntu:
+        default: ["liblcm-dev"]
+
+libleptonica-dev:
+    ubuntu: ["libleptonica-dev"]
+
+liblinear-dev:
+    ubuntu: ["liblinear-dev"]
+
+liblinphone-dev:
+    ubuntu: ["liblinphone-dev"]
+
+liblmdb-dev:
+    ubuntu: ["liblmdb-dev"]
+
+liblttng-ctl-dev:
+    ubuntu: ["liblttng-ctl-dev"]
+
+liblttng-ust-dev:
+    ubuntu: ["liblttng-ust-dev"]
+
+liblz4:
+    ubuntu: ["liblz4-1"]
+
+liblz4-dev:
+    ubuntu: ["liblz4-dev"]
+
+liblzma-dev:
+    ubuntu: ["liblzma-dev"]
+
+libmagick:
+    ubuntu: ["libmagick++-dev"]
+
+libmarble-dev:
+    ubuntu: ["libmarble-dev"]
+
+libmbedtls-dev:
+    ubuntu: ["libmbedtls-dev"]
+
+libmicrohttpd:
+    ubuntu: ["libmicrohttpd-dev"]
+
+libmlpack-dev:
+    ubuntu: ["libmlpack-dev"]
+
+libmnl-dev:
+    ubuntu: ["libmnl-dev"]
+
+libmockito-java:
+    ubuntu: ["libmockito-java"]
+
+libmodbus-dev:
+    ubuntu: ["libmodbus-dev"]
+
+libmodbus5:
+    ubuntu: ["libmodbus5"]
+
+libmongoc-1.0-0:
+    ubuntu: ["libmongoc-1.0-0"]
+
+libmongoc-dev:
+    ubuntu: ["libmongoc-dev"]
+
+libmongoclient-dev:
+    ubuntu: ["libmongoclient-dev"]
+
+libmotif-dev:
+    ubuntu: ["libmotif-dev"]
+
+libmp3lame-dev:
+    ubuntu: ["libmp3lame-dev"]
+
+libmpg123-dev:
+    ubuntu: ["libmpg123-dev"]
+
+libmpich-dev:
+    ubuntu: ["libmpich-dev"]
+
+libmpich2-dev:
+    ubuntu: ["libmpich2-dev"]
+
+libmsgsl-dev:
+    ubuntu: ["libmsgsl-dev"]
+
+libmysql++-dev:
+    ubuntu: ["libmysql++-dev"]
+
+libmysql++3v5:
+    ubuntu:
+        focal: ["libmysql++3v5"]
+        jammy: ["libmysql++3v5"]
+
+libmysqlclient-dev:
+    ubuntu: ["libmysqlclient-dev"]
+
+libmysqlcppconn-dev:
+    ubuntu: ["libmysqlcppconn-dev"]
+
+libnanoflann-dev:
+    ubuntu:
+        default: ["libnanoflann-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libnanopb-dev:
+    ubuntu:
+        default: ["libnanopb-dev"]
+        bionic: nonexistent
+
+libncurses:
+    ubuntu: ["libncurses6"]
+
+libncurses-dev:
+    ubuntu: ["libncurses-dev"]
+
+libneon27-gnutls-dev:
+    ubuntu: ["libneon27-gnutls-dev"]
+
+libnewmat10-dev:
+    ubuntu: ["libnewmat10-dev"]
+
+libnl-3:
+    ubuntu: ["libnl-3-200", "libnl-genl-3-200", "libnl-route-3-200"]
+
+libnl-3-dev:
+    ubuntu: ["libnl-3-dev", "libnl-genl-3-dev", "libnl-route-3-dev"]
+
+libnl-dev:
+    ubuntu: ["libnl-dev"]
+
+libnlopt-cxx-dev:
+    ubuntu:
+        default: ["libnlopt-cxx-dev"]
+        bionic: nonexistent
+
+libnlopt-dev:
+    ubuntu: ["libnlopt-dev"]
+
+libnlopt0:
+    ubuntu: ["libnlopt0"]
+
+libnotify:
+    ubuntu: ["libnotify-dev"]
+
+libnss3-dev:
+    ubuntu: ["libnss3-dev"]
+
+liboctomap-dev:
+    ubuntu: ["liboctomap-dev"]
+
+libogg:
+    ubuntu: ["libogg-dev"]
+
+libogre:
+    ubuntu: ["libogre-1.9.0v5"]
+
+libogre-1.12-dev:
+    ubuntu:
+        focal: ["libogre-1.12-dev"]
+        jammy: ["libogre-1.12-dev"]
+
+libogre-dev:
+    ubuntu: ["libogre-1.9-dev"]
+
+libogre1.12.10:
+    ubuntu:
+        jammy: ["libogre1.12.10"]
+
+libois-dev:
+    ubuntu: ["libois-dev"]
+
+libomp-dev:
+    ubuntu: ["libomp-dev"]
+
+libopal-dev:
+    ubuntu: ["libopal-dev"]
+
+libopen3d-dev:
+    ubuntu:
+        default: ["libopen3d-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libopenal-dev:
+    ubuntu: ["libopenal-dev"]
+
+libopenblas-dev:
+    ubuntu: ["libopenblas-dev"]
+
+libopencv-contrib-dev:
+    ubuntu: ["libopencv-contrib-dev"]
+
+libopencv-dev:
+    ubuntu: ["libopencv-dev"]
+
+libopencv-imgproc-dev:
+    ubuntu: ["libopencv-imgproc-dev"]
+
+libopenexr-dev:
+    ubuntu: ["libopenexr-dev"]
+
+libopenni-dev:
+    ubuntu: ["libopenni-dev"]
+
+libopenni-sensor-primesense-dev:
+    ubuntu: ["libopenni-sensor-primesense-dev"]
+
+libopenni2-dev:
+    ubuntu: ["libopenni2-dev"]
+
+libopenscenegraph:
+    ubuntu: ["openscenegraph", "libopenscenegraph-dev"]
+
+libopensplice67:
+    ubuntu:
+        bionic: ["libopensplice67"]
+
+libopensplice69:
+    ubuntu:
+        bionic: ["libopensplice69"]
+
+libopenvdb:
+    ubuntu:
+        bionic: ["libopenvdb5.0"]
+        focal: ["libopenvdb6.2"]
+        jammy: ["libopenvdb8.1"]
+
+libopenvdb-dev:
+    ubuntu: ["libopenvdb-dev", "libilmbase-dev"]
+
+libopus-dev:
+    ubuntu: ["libopus-dev"]
+
+liborocos-bfl:
+    ubuntu:
+        default: ["liborocos-bfl0.8"]
+        bionic: nonexistent
+
+liborocos-bfl-dev:
+    ubuntu: ["liborocos-bfl-dev"]
+
+liborocos-kdl:
+    ubuntu:
+        default: ["liborocos-kdl1.5"]
+        bionic: ["liborocos-kdl1.3"]
+        focal: ["liborocos-kdl1.4"]
+
+liborocos-kdl-dev:
+    ubuntu: ["liborocos-kdl-dev"]
+
+libosmesa6-dev:
+    ubuntu: ["libosmesa6-dev"]
+
+libpaho-mqtt:
+    ubuntu:
+        default: ["libpaho-mqtt1.3"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libpaho-mqtt-dev:
+    ubuntu:
+        default: ["libpaho-mqtt-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libpaho-mqttpp:
+    ubuntu:
+        default: ["libpaho-mqttpp3-1"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libpaho-mqttpp-dev:
+    ubuntu:
+        default: ["libpaho-mqttpp-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libpcap:
+    ubuntu: ["libpcap0.8-dev"]
+
+libpcl-all:
+    ubuntu:
+        bionic: ["libpcl-apps1.8", "libpcl-common1.8", "libpcl-features1.8", "libpcl-filters1.8", "libpcl-io1.8", "libpcl-kdtree1.8", "libpcl-keypoints1.8", "libpcl-ml1.8", "libpcl-octree1.8", "libpcl-outofcore1.8", "libpcl-people1.8", "libpcl-recognition1.8", "libpcl-registration1.8", "libpcl-sample-consensus1.8", "libpcl-search1.8", "libpcl-segmentation1.8", "libpcl-stereo1.8", "libpcl-surface1.8", "libpcl-tracking1.8", "libpcl-visualization1.8"]
+        focal: ["libpcl-apps1.10", "libpcl-common1.10", "libpcl-features1.10", "libpcl-filters1.10", "libpcl-io1.10", "libpcl-kdtree1.10", "libpcl-keypoints1.10", "libpcl-ml1.10", "libpcl-octree1.10", "libpcl-outofcore1.10", "libpcl-people1.10", "libpcl-recognition1.10", "libpcl-registration1.10", "libpcl-sample-consensus1.10", "libpcl-search1.10", "libpcl-segmentation1.10", "libpcl-stereo1.10", "libpcl-surface1.10", "libpcl-tracking1.10", "libpcl-visualization1.10"]
+        jammy: ["libpcl-apps1.12", "libpcl-common1.12", "libpcl-features1.12", "libpcl-filters1.12", "libpcl-io1.12", "libpcl-kdtree1.12", "libpcl-keypoints1.12", "libpcl-ml1.12", "libpcl-octree1.12", "libpcl-outofcore1.12", "libpcl-people1.12", "libpcl-recognition1.12", "libpcl-registration1.12", "libpcl-sample-consensus1.12", "libpcl-search1.12", "libpcl-segmentation1.12", "libpcl-stereo1.12", "libpcl-surface1.12", "libpcl-tracking1.12", "libpcl-visualization1.12"]
+        noble: ["libpcl-apps1.14", "libpcl-common1.14", "libpcl-features1.14", "libpcl-filters1.14", "libpcl-io1.14", "libpcl-kdtree1.14", "libpcl-keypoints1.14", "libpcl-ml1.14", "libpcl-octree1.14", "libpcl-outofcore1.14", "libpcl-people1.14", "libpcl-recognition1.14", "libpcl-registration1.14", "libpcl-sample-consensus1.14", "libpcl-search1.14", "libpcl-segmentation1.14", "libpcl-stereo1.14", "libpcl-surface1.14", "libpcl-tracking1.14", "libpcl-visualization1.14"]
+
+libpcl-all-dev:
+    ubuntu: ["libpcl-dev"]
+
+libpcl-apps:
+    ubuntu:
+        bionic: ["libpcl-apps1.8"]
+        focal: ["libpcl-apps1.10"]
+        jammy: ["libpcl-apps1.12"]
+        noble: ["libpcl-apps1.14"]
+
+libpcl-common:
+    ubuntu:
+        bionic: ["libpcl-common1.8"]
+        focal: ["libpcl-common1.10"]
+        jammy: ["libpcl-common1.12"]
+        noble: ["libpcl-common1.14"]
+
+libpcl-features:
+    ubuntu:
+        bionic: ["libpcl-features1.8"]
+        focal: ["libpcl-features1.10"]
+        jammy: ["libpcl-features1.12"]
+        noble: ["libpcl-features1.14"]
+
+libpcl-filters:
+    ubuntu:
+        bionic: ["libpcl-filters1.8"]
+        focal: ["libpcl-filters1.10"]
+        jammy: ["libpcl-filters1.12"]
+        noble: ["libpcl-filters1.14"]
+
+libpcl-io:
+    ubuntu:
+        bionic: ["libpcl-io1.8"]
+        focal: ["libpcl-io1.10"]
+        jammy: ["libpcl-io1.12"]
+        noble: ["libpcl-io1.14"]
+
+libpcl-kdtree:
+    ubuntu:
+        bionic: ["libpcl-kdtree1.8"]
+        focal: ["libpcl-kdtree1.10"]
+        jammy: ["libpcl-kdtree1.12"]
+        noble: ["libpcl-kdtree1.14"]
+
+libpcl-keypoints:
+    ubuntu:
+        bionic: ["libpcl-keypoints1.8"]
+        focal: ["libpcl-keypoints1.10"]
+        jammy: ["libpcl-keypoints1.12"]
+        noble: ["libpcl-keypoints1.14"]
+
+libpcl-ml:
+    ubuntu:
+        bionic: ["libpcl-ml1.8"]
+        focal: ["libpcl-ml1.10"]
+        jammy: ["libpcl-ml1.12"]
+        noble: ["libpcl-ml1.14"]
+
+libpcl-octree:
+    ubuntu:
+        bionic: ["libpcl-octree1.8"]
+        focal: ["libpcl-octree1.10"]
+        jammy: ["libpcl-octree1.12"]
+        noble: ["libpcl-octree1.14"]
+
+libpcl-outofcore:
+    ubuntu:
+        bionic: ["libpcl-outofcore1.8"]
+        focal: ["libpcl-outofcore1.10"]
+        jammy: ["libpcl-outofcore1.12"]
+        noble: ["libpcl-outofcore1.14"]
+
+libpcl-people:
+    ubuntu:
+        bionic: ["libpcl-people1.8"]
+        focal: ["libpcl-people1.10"]
+        jammy: ["libpcl-people1.12"]
+        noble: ["libpcl-people1.14"]
+
+libpcl-recognition:
+    ubuntu:
+        bionic: ["libpcl-recognition1.8"]
+        focal: ["libpcl-recognition1.10"]
+        jammy: ["libpcl-recognition1.12"]
+        noble: ["libpcl-recognition1.14"]
+
+libpcl-registration:
+    ubuntu:
+        bionic: ["libpcl-registration1.8"]
+        focal: ["libpcl-registration1.10"]
+        jammy: ["libpcl-registration1.12"]
+        noble: ["libpcl-registration1.14"]
+
+libpcl-sample-consensus:
+    ubuntu:
+        bionic: ["libpcl-sample-consensus1.8"]
+        focal: ["libpcl-sample-consensus1.10"]
+        jammy: ["libpcl-sample-consensus1.12"]
+        noble: ["libpcl-sample-consensus1.14"]
+
+libpcl-search:
+    ubuntu:
+        bionic: ["libpcl-search1.8"]
+        focal: ["libpcl-search1.10"]
+        jammy: ["libpcl-search1.12"]
+        noble: ["libpcl-search1.14"]
+
+libpcl-segmentation:
+    ubuntu:
+        bionic: ["libpcl-segmentation1.8"]
+        focal: ["libpcl-segmentation1.10"]
+        jammy: ["libpcl-segmentation1.12"]
+        noble: ["libpcl-segmentation1.14"]
+
+libpcl-stereo:
+    ubuntu:
+        bionic: ["libpcl-stereo1.8"]
+        focal: ["libpcl-stereo1.10"]
+        jammy: ["libpcl-stereo1.12"]
+        noble: ["libpcl-stereo1.14"]
+
+libpcl-surface:
+    ubuntu:
+        bionic: ["libpcl-surface1.8"]
+        focal: ["libpcl-surface1.10"]
+        jammy: ["libpcl-surface1.12"]
+        noble: ["libpcl-surface1.14"]
+
+libpcl-tracking:
+    ubuntu:
+        bionic: ["libpcl-tracking1.8"]
+        focal: ["libpcl-tracking1.10"]
+        jammy: ["libpcl-tracking1.12"]
+        noble: ["libpcl-tracking1.14"]
+
+libpcl-visualization:
+    ubuntu:
+        bionic: ["libpcl-visualization1.8"]
+        focal: ["libpcl-visualization1.10"]
+        jammy: ["libpcl-visualization1.12"]
+        noble: ["libpcl-visualization1.14"]
+
+libpcsclite-dev:
+    ubuntu: ["libpcsclite-dev"]
+
+libpcsclite1:
+    ubuntu: ["libpcsclite1"]
+
+libphonon:
+    ubuntu: ["libphonon4"]
+
+libphonon-dev:
+    ubuntu: ["libphonon-dev"]
+
+libpng++-dev:
+    ubuntu: ["libpng++-dev"]
+
+libpng-dev:
+    ubuntu:
+        default: ["libpng-dev"]
+
+libpng12-dev:
+    ubuntu: ["libpng12-dev"]
+
+libpoco-dev:
+    ubuntu: ["libpoco-dev"]
+
+libpocofoundation9:
+    ubuntu: ["libpocofoundation9"]
+
+libpopt-dev:
+    ubuntu: ["libpopt-dev"]
+
+libpq-dev:
+    ubuntu: ["libpq-dev"]
+
+libpqxx:
+    ubuntu:
+        bionic: ["libpqxx-4.0v5"]
+        focal: ["libpqxx-6.4"]
+
+libpqxx-dev:
+    ubuntu: ["libpqxx-dev"]
+
+libprocps-dev:
+    ubuntu: ["libprocps-dev"]
+
+libprocps6:
+    ubuntu:
+        bionic: ["libprocps6"]
+
+libpt-dev:
+    ubuntu: ["libpt-dev"]
+
+libpthread-stubs0-dev:
+    ubuntu: ["libpthread-stubs0-dev"]
+
+libpulse-dev:
+    ubuntu: ["libpulse-dev"]
+
+libqcustomplot-dev:
+    ubuntu: ["libqcustomplot-dev"]
+
+libqd-dev:
+    ubuntu: ["libqd-dev"]
+
+libqglviewer-dev-qt5:
+    ubuntu: ["libqglviewer-dev-qt5"]
+
+libqglviewer-qt4:
+    ubuntu:
+        bionic: ["libqglviewer2-qt4"]
+
+libqglviewer-qt4-dev:
+    ubuntu:
+        bionic: ["libqglviewer-dev-qt4"]
+
+libqglviewer2-qt5:
+    ubuntu: ["libqglviewer2-qt5"]
+
+libqhull:
+    ubuntu: ["libqhull-dev"]
+
+libqmi-glib-dev:
+    ubuntu: ["libqmi-glib-dev"]
+
+libqrencode:
+    ubuntu: ["libqrencode3"]
+
+libqrencode-dev:
+    ubuntu: ["libqrencode-dev"]
+
+libqt4:
+    ubuntu: ["libqt4-dbus", "libqt4-network", "libqt4-script", "libqt4-test", "libqt4-xml", "libqtcore4"]
+
+libqt4-dev:
+    ubuntu: ["libqt4-dev"]
+
+libqt4-opengl:
+    ubuntu: ["libqt4-opengl"]
+
+libqt4-opengl-dev:
+    ubuntu: ["libqt4-opengl-dev"]
+
+libqt4-sql-psql:
+    ubuntu: ["libqt4-sql-psql"]
+
+libqt5-charts-dev:
+    ubuntu: ["libqt5charts5-dev"]
+
+libqt5-concurrent:
+    ubuntu: ["libqt5concurrent5"]
+
+libqt5-core:
+    ubuntu: ["libqt5core5a"]
+
+libqt5-gstreamer-dev:
+    ubuntu: ["libqt5gstreamer-dev"]
+
+libqt5-gui:
+    ubuntu: ["libqt5gui5"]
+
+libqt5-multimedia:
+    ubuntu: ["libqt5multimedia5"]
+
+libqt5-network:
+    ubuntu: ["libqt5network5"]
+
+libqt5-opengl:
+    ubuntu: ["libqt5opengl5"]
+
+libqt5-opengl-dev:
+    ubuntu: ["libqt5opengl5-dev"]
+
+libqt5-printsupport:
+    ubuntu: ["libqt5printsupport5"]
+
+libqt5-qml:
+    ubuntu: ["libqt5qml5"]
+
+libqt5-quick:
+    ubuntu: ["libqt5quick5"]
+
+libqt5-serialport:
+    ubuntu: ["libqt5serialport5"]
+
+libqt5-serialport-dev:
+    ubuntu: ["libqt5serialport5-dev"]
+
+libqt5-sql:
+    ubuntu: ["libqt5sql5"]
+
+libqt5-svg:
+    ubuntu: ["libqt5svg5"]
+
+libqt5-svg-dev:
+    ubuntu: ["libqt5svg5-dev"]
+
+libqt5-websockets-dev:
+    ubuntu: ["libqt5websockets5-dev"]
+
+libqt5-widgets:
+    ubuntu: ["libqt5widgets5"]
+
+libqt5-xml:
+    ubuntu: ["libqt5xml5"]
+
+libqt5multimedia5-plugins:
+    ubuntu: ["libqt5multimedia5-plugins"]
+
+libqt5x11extras5-dev:
+    ubuntu: ["libqt5x11extras5-dev"]
+
+libqtgui4:
+    ubuntu: ["libqtgui4"]
+
+libqtwebkit-dev:
+    ubuntu: ["libqtwebkit-dev"]
+
+libqwt-qt5-dev:
+    ubuntu:
+        default: ["libqwt-qt5-dev"]
+
+libqwt5-qt4-dev:
+    ubuntu: ["libqwt5-qt4-dev"]
+
+libqwt6:
+    ubuntu: ["libqwt-dev"]
+
+libqwtplot3d-qt4-dev:
+    ubuntu: ["libqwtplot3d-qt4-dev"]
+
+librabbitmq-dev:
+    ubuntu: ["librabbitmq-dev"]
+
+librapidxml-dev:
+    ubuntu: ["librapidxml-dev"]
+
+libraw1394:
+    ubuntu: ["libraw1394-11"]
+
+libraw1394-dev:
+    ubuntu: ["libraw1394-dev"]
+
+librdkafka-dev:
+    ubuntu: ["librdkafka-dev"]
+
+libreadline:
+    ubuntu: ["libreadline-dev"]
+
+libreadline-dev:
+    ubuntu: ["libreadline-dev"]
+
+libreadline-java:
+    ubuntu: ["libreadline-java"]
+
+librtaudio-dev:
+    ubuntu: ["librtaudio-dev"]
+
+libsecp256k1-dev:
+    ubuntu: ["libsecp256k1-dev"]
+
+libsensors4-dev:
+    ubuntu: ["libsensors4-dev"]
+
+libserial-dev:
+    ubuntu: ["libserial-dev"]
+
+libshaderc-dev:
+    ubuntu:
+        default: ["libshaderc-dev"]
+        focal: nonexistent
+        jammy: nonexistent
+
+libsimage-dev:
+    ubuntu: ["libsimage-dev"]
+
+libsndfile1-dev:
+    ubuntu: ["libsndfile1-dev"]
+
+libsodium-dev:
+    ubuntu: ["libsodium-dev"]
+
+libsoqt4-dev:
+    ubuntu: ["libsoqt4-dev"]
+
+libsoundio-dev:
+    ubuntu: ["libsoundio-dev"]
+
+libsoup2-dev:
+    ubuntu: ["libsoup2.4-dev"]
+
+libspatialindex-dev:
+    ubuntu: ["libspatialindex-dev"]
+
+libspatialite:
+    ubuntu:
+        default: ["libsqlite3-mod-spatialite"]
+
+libspnav-dev:
+    ubuntu: ["libspnav-dev", "libx11-dev"]
+
+libsqlite3-dev:
+    ubuntu: ["libsqlite3-dev"]
+
+libsrtp0-dev:
+    ubuntu: ["libsrtp0-dev"]
+
+libssh-dev:
+    ubuntu: ["libssh-dev"]
+
+libssh2:
+    ubuntu: ["libssh2-1"]
+
+libssh2-dev:
+    ubuntu: ["libssh2-1-dev"]
+
+libssl-dev:
+    ubuntu: ["libssl-dev"]
+
+libstdc++5:
+    ubuntu: ["libstdc++5"]
+
+libstdc++6:
+    ubuntu: ["libstdc++6"]
+
+libsvm-dev:
+    ubuntu: ["libsvm-dev"]
+
+libsvm3:
+    ubuntu: ["libsvm3"]
+
+libsvn-dev:
+    ubuntu: ["libsvn-dev"]
+
+libswscale-dev:
+    ubuntu: ["libswscale-dev"]
+
+libsystemd-dev:
+    ubuntu:
+        default: ["libsystemd-dev"]
+
+libtclap-dev:
+    ubuntu: ["libtclap-dev"]
+
+libtesseract:
+    ubuntu: ["libtesseract-dev"]
+
+libtheora:
+    ubuntu: ["libtheora-dev"]
+
+libtiff-dev:
+    ubuntu: ["libtiff-dev"]
+
+libtiff4-dev:
+    ubuntu: ["libtiff4-dev"]
+
+libtins-dev:
+    ubuntu: ["libtins-dev"]
+
+libtool:
+    ubuntu: ["libtool", "libltdl-dev", "libtool-bin"]
+
+libttspico:
+    ubuntu: ["libttspico-dev", "libttspico-data", "libttspico-utils", "libttspico0"]
+
+libturbojpeg:
+    ubuntu:
+        default: ["libturbojpeg0-dev"]
+
+libudev-dev:
+    ubuntu: ["libudev-dev"]
+
+libunittest++:
+    ubuntu: ["libunittest++-dev"]
+
+libunwind:
+    ubuntu:
+        default: ["libunwind8"]
+
+libunwind-dev:
+    ubuntu:
+        default: ["libunwind-dev"]
+
+liburdfdom-dev:
+    ubuntu: ["liburdfdom-dev"]
+
+liburdfdom-headers-dev:
+    ubuntu: ["liburdfdom-headers-dev"]
+
+liburdfdom-tools:
+    ubuntu: ["liburdfdom-tools"]
+
+libusb:
+    ubuntu: ["libusb-0.1-4"]
+
+libusb-1.0:
+    ubuntu: ["libusb-1.0-0"]
+
+libusb-1.0-dev:
+    ubuntu: ["libusb-1.0-0-dev"]
+
+libusb-dev:
+    ubuntu: ["libusb-dev"]
+
+libuv-dev:
+    ubuntu:
+        bionic: ["libuv0.10-dev"]
+
+libuv1-dev:
+    ubuntu: ["libuv1-dev"]
+
+libuvc-dev:
+    ubuntu:
+        default: ["libuvc-dev"]
+
+libv4l-dev:
+    ubuntu: ["libv4l-dev"]
+
+libvlc:
+    ubuntu:
+        default: ["libvlc5", "vlc-bin"]
+
+libvlc-dev:
+    ubuntu: ["libvlc-dev"]
+
+libvlccore-dev:
+    ubuntu: ["libvlccore-dev"]
+
+libvorbis-dev:
+    ubuntu: ["libvorbis-dev"]
+
+libvpx-dev:
+    ubuntu: ["libvpx-dev"]
+
+libvtk:
+    ubuntu:
+        default: ["libvtk7-dev"]
+        bionic: ["libvtk6-dev"]
+
+libvtk-java:
+    ubuntu:
+        default: ["libvtk7-java"]
+        bionic: ["libvtk6-java"]
+
+libvtk-qt:
+    ubuntu:
+        default: ["libvtk7-qt-dev"]
+        bionic: ["libvtk6-qt-dev"]
+
+libvtk9-dev:
+    ubuntu:
+        default: ["libvtk9-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+libvulkan-dev:
+    ubuntu:
+        default: ["libvulkan-dev"]
+
+libwebp-dev:
+    ubuntu: ["libwebp-dev"]
+
+libwebp-tools:
+    ubuntu: ["webp"]
+
+libwebsocketpp-dev:
+    ubuntu: ["libwebsocketpp-dev"]
+
+libwebsockets-dev:
+    ubuntu: ["libwebsockets-dev"]
+
+libx11:
+    ubuntu: ["libx11-dev"]
+
+libx11-dev:
+    ubuntu: ["libx11-dev"]
+
+libx11-xcb-dev:
+    ubuntu: ["libx11-xcb-dev"]
+
+libx264-dev:
+    ubuntu: ["libx264-dev"]
+
+libxaw:
+    ubuntu: ["libxaw7-dev"]
+
+libxcb-randr0-dev:
+    ubuntu: ["libxcb-randr0-dev"]
+
+libxcursor-dev:
+    ubuntu: ["libxcursor-dev"]
+
+libxenomai-dev:
+    ubuntu: ["libxenomai-dev"]
+
+libxext:
+    ubuntu: ["libxext-dev"]
+
+libxft-dev:
+    ubuntu: ["libxft-dev"]
+
+libxi-dev:
+    ubuntu: ["libxi-dev"]
+
+libxinerama-dev:
+    ubuntu: ["libxinerama-dev"]
+
+libxkbcommon-dev:
+    ubuntu: ["libxkbcommon-dev"]
+
+libxml++-2.6:
+    ubuntu: ["libxml++2.6-dev"]
+
+libxml2:
+    ubuntu: ["libxml2-dev"]
+
+libxml2-utils:
+    ubuntu: ["libxml2-utils"]
+
+libxmlrpc-c++:
+    ubuntu: ["libxmlrpc-c++8-dev"]
+
+libxmu-dev:
+    ubuntu: ["libxmu-dev"]
+
+libxrandr:
+    ubuntu: ["libxrandr-dev"]
+
+libxslt:
+    ubuntu: ["libxslt1-dev"]
+
+libxss1:
+    ubuntu: ["libxss1"]
+
+libxt-dev:
+    ubuntu: ["libxt-dev"]
+
+libxtst-dev:
+    ubuntu: ["libxtst-dev"]
+
+libxxf86vm:
+    ubuntu: ["libxxf86vm-dev"]
+
+libyaml:
+    ubuntu: ["libyaml-0-2"]
+
+libyaml-dev:
+    ubuntu: ["libyaml-dev"]
+
+libzip-dev:
+    ubuntu: ["libzip-dev"]
+
+libzmq3-dev:
+    ubuntu:
+        default: ["libzmq3-dev", "cppzmq-dev"]
+        bionic: ["libzmq3-dev"]
+        focal: ["libzmq3-dev"]
+        jammy: ["libzmq3-dev"]
+
+libzmqpp-dev:
+    ubuntu: ["libzmqpp-dev"]
+
+libzmqpp3:
+    ubuntu: ["libzmqpp3"]
+
+libzstd-dev:
+    ubuntu:
+        default: ["libzstd-dev"]
+
+light-locker:
+    ubuntu: ["light-locker"]
+
+lighttpd:
+    ubuntu: ["lighttpd"]
+
+lilypond:
+    ubuntu: ["lilypond"]
+
+linphone:
+    ubuntu: ["linphone"]
+
+linux-headers-generic:
+    ubuntu: ["linux-headers-generic"]
+
+linux-kernel-headers:
+    ubuntu: ["linux-libc-dev"]
+
+llvm:
+    ubuntu: ["llvm"]
+
+llvm-7:
+    ubuntu:
+        bionic: ["llvm-7"]
+        focal: ["llvm-7"]
+
+llvm-7-dev:
+    ubuntu:
+        bionic: ["llvm-7-dev"]
+        focal: ["llvm-7-dev"]
+
+llvm-dev:
+    ubuntu: ["llvm-dev"]
+
+lm-sensors:
+    ubuntu: ["lm-sensors"]
+
+log4cplus:
+    ubuntu: ["liblog4cplus-dev"]
+
+log4cxx:
+    ubuntu:
+        default: ["liblog4cxx-dev"]
+
+lsb-release:
+    ubuntu: ["lsb-release"]
+
+lttng-modules:
+    ubuntu: ["lttng-modules-dkms"]
+
+lttng-tools:
+    ubuntu: ["lttng-tools"]
+
+lua-dev:
+    ubuntu: ["liblua5.1-0-dev"]
+
+lua5.2-dev:
+    ubuntu: ["liblua5.2-dev"]
+
+lz4:
+    ubuntu: ["liblz4-dev"]
+
+m2r:
+    ubuntu:
+        default: ["m2r"]
+        bionic: nonexistent
+
+m4:
+    ubuntu: ["m4"]
+
+mapnik-utils:
+    ubuntu: ["mapnik-utils"]
+
+matio:
+    ubuntu: ["libmatio-dev"]
+
+maven:
+    ubuntu: ["maven"]
+
+mayavi:
+    ubuntu: ["mayavi2"]
+
+meld:
+    ubuntu: ["meld"]
+
+mercurial:
+    ubuntu: ["mercurial"]
+
+mesa-common-dev:
+    ubuntu: ["mesa-common-dev"]
+
+mesa-utils:
+    ubuntu: ["mesa-utils"]
+
+meshlab:
+    ubuntu: ["meshlab"]
+
+mkdocs:
+    ubuntu:
+        bionic: ["mkdocs"]
+
+mkdocs-bootstrap:
+    ubuntu:
+        bionic: ["mkdocs-bootstrap"]
+
+mkdocs-bootswatch:
+    ubuntu:
+        bionic: ["mkdocs-bootswatch"]
+
+mongodb:
+    ubuntu:
+        bionic: ["mongodb"]
+        focal: ["mongodb"]
+
+mongodb-dev:
+    ubuntu: ["libmongoclient-dev"]
+
+mono-complete:
+    ubuntu: ["mono-complete"]
+
+mono-devel:
+    ubuntu: ["mono-devel"]
+
+mosquitto:
+    ubuntu: ["mosquitto"]
+
+mosquitto-clients:
+    ubuntu: ["mosquitto-clients"]
+
+mosquitto-dev:
+    ubuntu: ["libmosquitto-dev"]
+
+mosquittopp-dev:
+    ubuntu: ["libmosquittopp-dev"]
+
+mpfr:
+    ubuntu: ["libmpfr-dev"]
+
+mpg123:
+    ubuntu: ["mpg123"]
+
+mplayer:
+    ubuntu: ["mplayer"]
+
+mrpt:
+    ubuntu: ["libmrpt-dev"]
+
+msgpack:
+    ubuntu: ["libmsgpack-dev"]
+
+msr-tools:
+    ubuntu: ["msr-tools"]
+
+multistrap:
+    ubuntu: ["multistrap"]
+
+muparser:
+    ubuntu: ["libmuparser-dev"]
+
+nanobind-dev:
+    pip: ["nanobind"]
+    pip: ["nanobind"]
+
+nanoflann:
+    ubuntu:
+        default: ["libnanoflann-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+nasm:
+    ubuntu: ["nasm"]
+
+nbtscan:
+    ubuntu: ["nbtscan"]
+
+net-tools:
+    ubuntu: ["net-tools"]
+
+netcdf:
+    ubuntu: ["libnetcdf-dev"]
+
+netpbm:
+    ubuntu: ["libnetpbm10-dev"]
+
+network-manager:
+    ubuntu: ["network-manager"]
+
+ninja-build:
+    ubuntu: ["ninja-build"]
+
+nite-dev:
+    ubuntu: ["nite-dev"]
+
+nkf:
+    ubuntu: ["nkf"]
+
+nlohmann-json-dev:
+    ubuntu:
+        default: ["nlohmann-json3-dev"]
+        bionic: ["nlohmann-json-dev"]
+
+nmap:
+    ubuntu: ["nmap"]
+
+nodejs:
+    ubuntu: ["nodejs"]
+
+nodejs-legacy:
+    ubuntu: ["nodejs-legacy"]
+
+npm:
+    ubuntu: ["npm"]
+
+ntp:
+    ubuntu: ["ntp"]
+
+ntpdate:
+    ubuntu: ["ntpdate"]
+
+nvidia-cg:
+    ubuntu: ["nvidia-cg-toolkit"]
+
+nvidia-cuda:
+    ubuntu: ["nvidia-cuda-toolkit"]
+
+nvidia-cuda-dev:
+    ubuntu: ["nvidia-cuda-dev"]
+
+nvidia-cudnn:
+    ubuntu:
+        default: ["nvidia-cudnn"]
+        focal: nonexistent
+
+ocl-icd-opencl-dev:
+    ubuntu: ["ocl-icd-opencl-dev"]
+
+octave:
+    ubuntu: ["octave"]
+
+odb:
+    ubuntu:
+        default: ["odb"]
+
+omniidl:
+    ubuntu: ["omniidl", "omniorb-idl"]
+
+omniorb:
+    ubuntu: ["omniorb", "omniidl", "omniorb-idl", "omniorb-nameserver", "libomniorb4-dev"]
+
+opencascade:
+    ubuntu:
+        bionic: ["liboce-visualization-dev"]
+        focal: ["libocct-data-exchange-dev", "libocct-draw-dev"]
+
+opencl-headers:
+    ubuntu: ["opencl-headers"]
+
+opende:
+    ubuntu: ["libode-dev"]
+
+opengl:
+    ubuntu: ["libgl1-mesa-dev", "libglu1-mesa-dev"]
+
+openjdk-6-jdk:
+    ubuntu: ["openjdk-6-jdk"]
+
+openmpi:
+    ubuntu: []
+
+openni-dev:
+    ubuntu: ["libopenni-dev"]
+
+openocd:
+    ubuntu: ["openocd"]
+
+openssh-client:
+    ubuntu: ["openssh-client"]
+
+openssh-server:
+    ubuntu: ["openssh-server"]
+
+openssl:
+    ubuntu: ["openssl"]
+
+optipng:
+    ubuntu: ["optipng"]
+
+osm2pgsql:
+    ubuntu: ["osm2pgsql"]
+
+osmium:
+    ubuntu: ["libosmium2-dev"]
+
+pandoc:
+    ubuntu: ["pandoc"]
+
+patchelf:
+    ubuntu: ["patchelf"]
+
+pcre:
+    ubuntu: ["libpcre3-dev"]
+
+pcre-dev:
+    ubuntu: ["libpcre++-dev"]
+
+pcscd:
+    ubuntu: ["pcscd"]
+
+phantomjs:
+    ubuntu: ["phantomjs"]
+
+pigz:
+    ubuntu: ["pigz"]
+
+pkg-config:
+    ubuntu: ["pkg-config"]
+
+pmccabe:
+    ubuntu: ["pmccabe"]
+
+pmount:
+    ubuntu: ["pmount"]
+
+polyclipping-dev:
+    ubuntu: ["libpolyclipping-dev"]
+
+poppler-utils:
+    ubuntu: ["poppler-utils"]
+
+portaudio:
+    ubuntu: ["libportaudio-dev"]
+
+portaudio19-dev:
+    ubuntu: ["portaudio19-dev"]
+
+postfix:
+    ubuntu: ["postfix"]
+
+postgresql:
+    ubuntu: ["postgresql", "postgresql-contrib"]
+
+postgresql-client:
+    ubuntu: ["postgresql-client"]
+
+postgresql-postgis:
+    ubuntu:
+        bionic: ["postgresql-10-postgis-2.4", "postgresql-contrib", "postgresql-server-dev-all"]
+        focal: ["postgresql-12-postgis-3", "postgresql-contrib", "postgresql-server-dev-all"]
+
+potrace:
+    ubuntu: ["potrace"]
+
+powertop:
+    ubuntu: ["powertop"]
+
+procps:
+    ubuntu: ["procps"]
+
+proj:
+    ubuntu: ["libproj-dev"]
+
+protobuf:
+    ubuntu:
+        bionic: ["libprotobuf10"]
+        focal: ["libprotobuf17"]
+        jammy: ["libprotobuf23"]
+        noble: ["libprotobuf32"]
+
+protobuf-compiler-grpc:
+    ubuntu: ["protobuf-compiler-grpc"]
+
+protobuf-dev:
+    ubuntu: ["libprotobuf-dev", "protobuf-compiler", "libprotoc-dev"]
+
+ps-engine:
+    ubuntu: ["ps-engine"]
+
+psmisc:
+    ubuntu: ["psmisc"]
+
+pstoedit:
+    ubuntu: ["pstoedit"]
+
+psutils:
+    ubuntu: ["psutils"]
+
+pugixml-dev:
+    ubuntu: ["libpugixml-dev"]
+
+pybind11-dev:
+    ubuntu: ["pybind11-dev"]
+
+pybind11-json-dev:
+    ubuntu:
+        default: ["pybind11-json-dev"]
+        focal: nonexistent
+
+python-dev:
+    ubuntu:
+        default: ["python-dev"]
+        focal: ["python2-dev"]
+
+qemu-user-static:
+    ubuntu: ["qemu-user-static"]
+
+qhull-bin:
+    ubuntu: ["qhull-bin"]
+
+qml-module-qt-labs-folderlistmodel:
+    ubuntu: ["qml-module-qt-labs-folderlistmodel"]
+
+qml-module-qt-labs-platform:
+    ubuntu: ["qml-module-qt-labs-platform"]
+
+qml-module-qt-labs-settings:
+    ubuntu: ["qml-module-qt-labs-settings"]
+
+qml-module-qtcharts:
+    ubuntu: ["qml-module-qtcharts"]
+
+qml-module-qtgraphicaleffects:
+    ubuntu: ["qml-module-qtgraphicaleffects"]
+
+qml-module-qtlocation:
+    ubuntu: ["qml-module-qtlocation"]
+
+qml-module-qtmultimedia:
+    ubuntu: ["qml-module-qtmultimedia"]
+
+qml-module-qtpositioning:
+    ubuntu: ["qml-module-qtpositioning"]
+
+qml-module-qtquick-controls:
+    ubuntu: ["qml-module-qtquick-controls"]
+
+qml-module-qtquick-controls2:
+    ubuntu: ["qml-module-qtquick-controls2"]
+
+qml-module-qtquick-dialogs:
+    ubuntu: ["qml-module-qtquick-dialogs"]
+
+qml-module-qtquick-extras:
+    ubuntu: ["qml-module-qtquick-extras"]
+
+qml-module-qtquick-layouts:
+    ubuntu: ["qml-module-qtquick-layouts"]
+
+qml-module-qtquick-templates2:
+    ubuntu: ["qml-module-qtquick-templates2"]
+
+qml-module-qtquick-window2:
+    ubuntu: ["qml-module-qtquick-window2"]
+
+qml-module-qtquick2:
+    ubuntu: ["qml-module-qtquick2"]
+
+qrencode:
+    ubuntu: ["qrencode"]
+
+qt4-dev-tools:
+    ubuntu: ["qt4-dev-tools"]
+
+qt4-linguist-tools:
+    ubuntu:
+        default: nonexistent
+        bionic: ["qt4-linguist-tools"]
+
+qt4-qmake:
+    ubuntu: ["qt4-qmake"]
+
+qt5-image-formats-plugins:
+    ubuntu: ["qt5-image-formats-plugins"]
+
+qt5-qmake:
+    ubuntu: ["qt5-qmake"]
+
+qtbase5-dev:
+    ubuntu: ["qtbase5-dev"]
+
+qtbase5-private-dev:
+    ubuntu: ["qtbase5-private-dev"]
+
+qtdeclarative5-dev:
+    ubuntu: ["qtdeclarative5-dev"]
+
+qtmobility-dev:
+    ubuntu: ["qtmobility-dev"]
+
+qtmultimedia5-dev:
+    ubuntu: ["qtmultimedia5-dev"]
+
+qtpositioning5-dev:
+    ubuntu: ["qtpositioning5-dev"]
+
+qtquickcontrols2-5-dev:
+    ubuntu: ["qtquickcontrols2-5-dev"]
+
+qttools5-dev:
+    ubuntu: ["qttools5-dev"]
+
+qttools5-dev-tools:
+    ubuntu: ["qttools5-dev-tools"]
+
+qtwebengine5-dev:
+    ubuntu: ["qtwebengine5-dev"]
+
+r-base:
+    ubuntu: ["r-base"]
+
+r-base-dev:
+    ubuntu: ["r-base-dev"]
+
+range-v3:
+    ubuntu:
+        default: ["librange-v3-dev"]
+
+rapidjson-dev:
+    ubuntu: ["rapidjson-dev"]
+
+readline-dev:
+    ubuntu: ["libreadline-dev"]
+
+recode:
+    ubuntu: ["recode"]
+
+recordmydesktop:
+    ubuntu: ["recordmydesktop"]
+
+redis-server:
+    ubuntu: ["redis-server"]
+
+robin-map-dev:
+    ubuntu: ["robin-map-dev"]
+
+robotino-api2:
+    ubuntu: ["robotino-api2"]
+
+rsync:
+    ubuntu: ["rsync"]
+
+rsyslog:
+    ubuntu: ["rsyslog"]
+
+rt-tests:
+    ubuntu: ["rt-tests"]
+
+rti-connext-dds-5.3.1:
+    ubuntu:
+        bionic: ["rti-connext-dds-5.3.1"]
+        focal: ["rti-connext-dds-5.3.1"]
+
+rti-connext-dds-6.0.1:
+    ubuntu:
+        default: ["rti-connext-dds-6.0.1"]
+        bionic: nonexistent
+
+rtmidi:
+    ubuntu: ["librtmidi-dev"]
+
+rustc:
+    ubuntu: ["rustc"]
+
+sbcl:
+    ubuntu: ["sbcl"]
+
+scons:
+    ubuntu: ["scons"]
+
+screen:
+    ubuntu: ["screen"]
+
+sdformat:
+    ubuntu:
+        bionic: ["libsdformat6-dev"]
+        focal: ["libsdformat9-dev"]
+        jammy: ["libsdformat-dev"]
+
+sdformat11:
+    ubuntu:
+        focal: ["libsdformat11-dev"]
+
+sdformat12:
+    ubuntu:
+        focal: ["libsdformat12-dev"]
+        jammy: ["libsdformat12-dev"]
+
+sdl:
+    ubuntu: ["libsdl1.2-dev"]
+
+sdl-gfx:
+    ubuntu: ["libsdl-gfx1.2-dev"]
+
+sdl-image:
+    ubuntu: ["libsdl-image1.2-dev"]
+
+sdl-mixer:
+    ubuntu: ["libsdl-mixer1.2-dev"]
+
+sdl-ttf:
+    ubuntu: ["libsdl-ttf2.0-dev"]
+
+sdl2:
+    ubuntu: ["libsdl2-dev"]
+
+sdl2-image:
+    ubuntu: ["libsdl2-image-dev"]
+
+sdl2-mixer:
+    ubuntu: ["libsdl2-mixer-dev"]
+
+sdl2-ttf:
+    ubuntu: ["libsdl2-ttf-dev"]
+
+semgrep:
+    pip: ["semgrep"]
+
+setserial:
+    ubuntu: ["setserial"]
+
+sfml-dev:
+    ubuntu: ["libsfml-dev"]
+
+simde:
+    ubuntu:
+        default: ["libsimde-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+sixad:
+    ubuntu: ["sixad"]
+
+slime:
+    ubuntu: ["slime"]
+
+smartmontools:
+    ubuntu: ["smartmontools"]
+
+smbclient:
+    ubuntu: ["smbclient"]
+
+snappy:
+    ubuntu: ["libsnappy-dev"]
+
+socat:
+    ubuntu: ["socat"]
+
+sound-theme-freedesktop:
+    ubuntu: ["sound-theme-freedesktop"]
+
+sox:
+    ubuntu: ["sox"]
+
+spacenavd:
+    ubuntu: ["spacenavd"]
+
+sparsehash:
+    ubuntu: ["libsparsehash-dev"]
+
+spdlog:
+    ubuntu: ["libspdlog-dev"]
+
+speech-dispatcher:
+    ubuntu: ["speech-dispatcher"]
+
+spirv-headers:
+    ubuntu:
+        default: ["spirv-headers"]
+        bionic: nonexistent
+
+spirv-tools:
+    ubuntu:
+        default: ["spirv-tools"]
+        bionic: nonexistent
+
+sqlite3:
+    ubuntu: ["sqlite3"]
+
+ssh-askpass:
+    ubuntu: ["ssh-askpass"]
+
+ssh-askpass-gnome:
+    ubuntu: ["ssh-askpass-gnome"]
+
+sshpass:
+    ubuntu: ["sshpass"]
+
+stress:
+    ubuntu: ["stress"]
+
+stress-ng:
+    ubuntu: ["stress-ng"]
+
+subversion:
+    ubuntu: ["subversion"]
+
+suitesparse:
+    ubuntu: ["libsuitesparse-dev"]
+
+supervisor:
+    ubuntu: ["supervisor"]
+
+swi-prolog:
+    ubuntu: ["swi-prolog"]
+
+swi-prolog-java:
+    ubuntu: ["swi-prolog-java"]
+
+swi-prolog-odbc:
+    ubuntu: ["swi-prolog-odbc"]
+
+swig:
+    ubuntu: ["swig"]
+
+sysbench:
+    ubuntu: ["sysbench"]
+
+sysstat:
+    ubuntu: ["sysstat"]
+
+systemd:
+    ubuntu: ["systemd"]
+
+tango-icon-theme:
+    ubuntu: ["tango-icon-theme"]
+
+tar:
+    ubuntu: ["libtar-dev"]
+
+tbb:
+    ubuntu: ["libtbb-dev"]
+
+tcsh:
+    ubuntu: ["tcsh"]
+
+terminator:
+    ubuntu: ["terminator"]
+
+tesseract-ocr:
+    ubuntu: ["tesseract-ocr"]
+
+tesseract-ocr-jpn:
+    ubuntu: ["tesseract-ocr-jpn"]
+
+texlive-fonts-extra:
+    ubuntu: ["texlive-fonts-extra"]
+
+texlive-fonts-recommended:
+    ubuntu: ["texlive-fonts-recommended"]
+
+texlive-full:
+    ubuntu: ["texlive-full"]
+
+texlive-latex-base:
+    ubuntu: ["texlive-latex-base"]
+
+texlive-latex-extra:
+    ubuntu: ["texlive-latex-extra"]
+
+texlive-latex-recommended:
+    ubuntu: ["texlive-latex-recommended"]
+
+texmaker:
+    ubuntu: ["texmaker"]
+
+tiled:
+    ubuntu: ["tiled"]
+
+time:
+    ubuntu: ["time"]
+
+tinyxml:
+    ubuntu: ["libtinyxml-dev"]
+
+tinyxml2:
+    ubuntu: ["libtinyxml2-dev"]
+
+tix:
+    ubuntu: ["tix"]
+
+tmux:
+    ubuntu: ["tmux"]
+
+touchegg:
+    ubuntu: ["touchegg"]
+
+trang:
+    ubuntu: ["trang"]
+
+tree:
+    ubuntu: ["tree"]
+
+tshark:
+    ubuntu: ["tshark"]
+
+ttf-kochi-gothic:
+    ubuntu: ["ttf-kochi-gothic"]
+
+ttf-kochi-mincho:
+    ubuntu: ["ttf-kochi-mincho"]
+
+ttf-sazanami-gothic:
+    ubuntu: ["ttf-sazanami-gothic"]
+
+ttf-sazanami-mincho:
+    ubuntu: ["ttf-sazanami-mincho"]
+
+udev:
+    ubuntu: ["udev"]
+
+udhcpc:
+    ubuntu: ["udhcpc"]
+
+unclutter:
+    ubuntu: ["unclutter"]
+
+uncrustify:
+    ubuntu: ["uncrustify"]
+
+unison:
+    ubuntu: ["unison"]
+
+unison-gui:
+    ubuntu: ["unison-gtk"]
+
+unoconv:
+    ubuntu: ["unoconv"]
+
+unrar:
+    ubuntu: ["unrar"]
+
+unzip:
+    ubuntu: ["unzip"]
+
+usbutils:
+    ubuntu: ["usbutils"]
+
+util-linux:
+    ubuntu:
+        default: ["util-linux"]
+        bionic: ["setpriv", "util-linux"]
+
+uuid:
+    ubuntu: ["uuid-dev"]
+
+uvcdynctrl:
+    ubuntu: ["uvcdynctrl"]
+
+v4l-utils:
+    ubuntu: ["v4l-utils"]
+
+valgrind:
+    ubuntu: ["valgrind"]
+
+vim:
+    ubuntu: ["vim"]
+
+vlc:
+    ubuntu: ["vlc"]
+
+vorbis-tools:
+    ubuntu: ["vorbis-tools"]
+
+wayland:
+    ubuntu: ["libwayland-client0", "libwayland-cursor0", "libwayland-egl1"]
+
+wayland-dev:
+    ubuntu: ["libwayland-dev", "wayland-protocols"]
+
+wget:
+    ubuntu: ["wget"]
+
+wireguard:
+    ubuntu:
+        default: ["wireguard"]
+        bionic: nonexistent
+
+wireless-tools:
+    ubuntu: ["wireless-tools"]
+
+wireshark:
+    ubuntu: ["wireshark"]
+
+wireshark-common:
+    ubuntu: ["wireshark-common"]
+
+wkhtmltopdf:
+    ubuntu: ["wkhtmltopdf"]
+
+wmctrl:
+    ubuntu: ["wmctrl"]
+
+workrave:
+    ubuntu: ["workrave", "workrave-data"]
+
+wx-common:
+    ubuntu: ["wx-common"]
+
+wxwidgets:
+    ubuntu:
+        default: ["libwxgtk3.2-dev"]
+        bionic: ["libwxgtk3.0-dev"]
+        focal: ["libwxgtk3.0-gtk3-dev"]
+        jammy: ["libwxgtk3.0-gtk3-dev"]
+
+x11proto-dri2-dev:
+    ubuntu: ["x11proto-dri2-dev"]
+
+x11proto-gl-dev:
+    ubuntu: ["x11proto-gl-dev"]
+
+x11proto-print-dev:
+    ubuntu: ["x11proto-print-dev"]
+
+xclip:
+    ubuntu: ["xclip"]
+
+xdg-utils:
+    ubuntu: ["xdg-utils"]
+
+xdotool:
+    ubuntu: ["xdotool"]
+
+xerces:
+    ubuntu: ["libxerces-c-dev"]
+
+xfonts-100dpi:
+    ubuntu: ["xfonts-100dpi"]
+
+xfonts-75dpi:
+    ubuntu: ["xfonts-75dpi"]
+
+xpath-perl:
+    ubuntu: ["libxml-xpath-perl"]
+
+xsimd:
+    ubuntu:
+        default: ["libxsimd-dev"]
+        bionic: nonexistent
+        focal: nonexistent
+
+xsltproc:
+    ubuntu: ["xsltproc"]
+
+xtensor:
+    ubuntu:
+        default: ["libxtensor-dev"]
+        focal: nonexistent
+
+xterm:
+    ubuntu: ["xterm"]
+
+xulrunner-1.9.2:
+    ubuntu:
+        karmic: ["xulrunner-1.9.2"]
+
+xulrunner-dev:
+    ubuntu: ["libv8-dev"]
+
+xvfb:
+    ubuntu: ["xvfb"]
+
+xz-utils:
+    ubuntu: ["xz-utils"]
+
+yaml:
+    ubuntu: ["libyaml-dev"]
+
+yaml-cpp:
+    ubuntu: ["libyaml-cpp-dev"]
+
+yamllint:
+    ubuntu: ["yamllint"]
+
+yarn:
+    ubuntu:
+        default: ["yarnpkg"]
+        bionic: nonexistent
+
+yasm:
+    ubuntu: ["yasm"]
+
+zbar:
+    ubuntu: ["libzbar-dev"]
+
+zenity:
+    ubuntu: ["zenity"]
+
+zeromq3:
+    ubuntu: ["libzmq5"]
+
+zip:
+    ubuntu: ["zip"]
+
+zlib:
+    ubuntu: ["zlib1g-dev"]
+
+zsh:
+    ubuntu: ["zsh"]
+
+zziplib:
+    ubuntu: ["libzzip-dev"]
+
+adafruit-ads1x15-pip:
+    pip: ["Adafruit-ADS1x15"]
+
+adafruit-gpio-pip:
+    pip: ["Adafruit-GPIO"]
+
+adafruit-mcp3008-pip:
+    pip: ["Adafruit-MCP3008"]
+
+adafruit-pca9685-pip:
+    pip: ["adafruit-pca9685"]
+
+autograd-pip:
+    pip: ["autograd"]
+
+autolab-core-pip:
+    pip: ["autolab-core"]
+
+autolab-perception-pip:
+    pip: ["autolab_perception"]
+
+autolab-visualization-pip:
+    pip: ["visualization"]
+
+awsiotpythonsdk-pip:
+    pip: ["awsiotpythonsdk"]
+
+azure-core-pip:
+    pip: ["azure-core"]
+
+azure-iothub-device-client-pip:
+    pip: ["azure-iothub-device-client"]
+
+azure-mgmt-storage-pip:
+    pip: ["azure-mgmt-storage"]
+
+azure-storage-file-share-pip:
+    pip: ["azure-storage-file-share"]
+
+black:
+    ubuntu:
+        default: ["black"]
+        bionic: nonexistent
+
+canopen-pip:
+    pip: ["canopen"]
+
+carla-pip:
+    pip: ["carla"]
+
+casadi-pip:
+    pip: ["casadi"]
+
+cmakelint-pip:
+    pip: ["cmakelint"]
+
+cppcheck-junit-pip:
+    pip: ["cppcheck-junit"]
+
+cython:
+    ubuntu: ["cython"]
+
+cython3:
+    ubuntu: ["cython3"]
+
+dpath-pip:
+    pip: ["dpath"]
+
+ds4drv-pip:
+    pip: ["ds4drv"]
+
+epydoc:
+    ubuntu: ["python-epydoc"]
+
+exhale-pip:
+    pip: ["exhale"]
+
+gunicorn:
+    ubuntu: ["gunicorn"]
+
+gym-pip:
+    pip: ["gym"]
+
+imgaug-pip:
+    pip: ["imgaug"]
+
+intelhex-pip:
+    pip: ["intelhex"]
+
+ipython:
+    ubuntu: ["ipython"]
+
+ipython3:
+    ubuntu: ["ipython3"]
+
+jupyter-nbconvert:
+    ubuntu:
+        default: ["jupyter-nbconvert"]
+
+jupyter-notebook:
+    ubuntu:
+        default: ["jupyter-notebook"]
+
+libgv-python:
+    ubuntu: ["libgv-python"]
+
+libshiboken2-dev:
+    ubuntu: ["libshiboken2-dev"]
+
+mcap-ros2-support:
+    pip: ["mcap-ros2-support"]
+
+meson:
+    ubuntu: ["meson"]
+
+nuitka:
+    ubuntu: ["nuitka"]
+
+onvif_zeep:
+    pip: ["onvif_zeep"]
+
+opcua-pip:
+    pip: ["opcua"]
+
+paramiko:
+    ubuntu: ["python-paramiko"]
+
+pi-ina219-pip:
+    pip: ["pi-ina219"]
+
+pika:
+    ubuntu: ["python-pika"]
+
+pydocstyle:
+    ubuntu: ["pydocstyle"]
+
+pydrive-pip:
+    pip: ["PyDrive"]
+
+pyflakes3:
+    ubuntu: ["pyflakes3"]
+
+pymap3d-pip:
+    pip: ["pymap3d"]
+    pip: ["pymap3d"]
+
+pymodbustcp-pip:
+    pip: ["pyModbusTCP"]
+
+pynput-pip:
+    pip: ["pynput"]
+
+pyosmium:
+    ubuntu: ["python-pyosmium"]
+
+pyper-pip:
+    pip: ["pyper"]
+
+pyqt4-dev-tools:
+    ubuntu: ["pyqt4-dev-tools"]
+
+pyqt5-dev-tools:
+    ubuntu: ["pyqt5-dev-tools"]
+
+pyqt6-dev-tools:
+    ubuntu:
+        default: ["pyqt6-dev-tools"]
+        focal: nonexistent
+        jammy: nonexistent
+
+pyrebase-pip:
+    pip: ["pyrebase"]
+
+pyro4:
+    ubuntu: ["python2-pyro4"]
+
+pyros-setup-pip:
+    pip: ["pyros-setup"]
+
+pyside-tools:
+    ubuntu: ["pyside-tools"]
+
+python:
+    ubuntu:
+        bionic: ["python-dev"]
+
+python-absl-py-pip:
+    pip: ["absl-py"]
+
+python-adafruit-bno055-pip:
+    pip: ["adafruit_bno055"]
+
+python-alembic:
+    ubuntu:
+        default: ["python-alembic"]
+
+python-amqp:
+    ubuntu: ["python-amqp"]
+
+python-aniso8601:
+    ubuntu:
+        bionic: ["python-aniso8601"]
+
+python-annoy-pip:
+    pip: ["annoy"]
+
+python-anyjson:
+    ubuntu: ["python-anyjson"]
+
+python-apparmor:
+    ubuntu: ["python-apparmor"]
+
+python-argcomplete:
+    ubuntu: ["python-argcomplete"]
+
+python-argh:
+    ubuntu: ["python-argh"]
+
+python-argparse:
+    ubuntu:
+        default: []
+
+python-astor-pip:
+    pip: ["astor"]
+
+python-attrs:
+    ubuntu:
+        bionic: ["python-attr"]
+        focal: ["python-attr"]
+
+python-autobahn:
+    ubuntu:
+        default: ["python-autobahn"]
+
+python-avahi:
+    ubuntu: ["python-avahi"]
+
+python-babel:
+    ubuntu: ["python-babel"]
+
+python-backoff-pip:
+    pip: ["backoff"]
+
+python-backports.ssl-match-hostname:
+    ubuntu:
+        bionic: ["python-backports.ssl-match-hostname"]
+
+python-bcrypt:
+    ubuntu: ["python-bcrypt"]
+
+python-beautifulsoup:
+    ubuntu: ["python-beautifulsoup"]
+
+python-bitarray:
+    ubuntu: ["python-bitarray"]
+
+python-bitstring:
+    ubuntu:
+        bionic: ["python-bitstring"]
+
+python-bitstring-pip:
+    pip: ["bitstring"]
+
+python-blinker:
+    ubuntu: ["python-blinker"]
+
+python-bloom:
+    ubuntu:
+        default: ["python-bloom"]
+
+python-bluez:
+    ubuntu: ["python-bluez"]
+
+python-bokeh-pip:
+    pip: ["bokeh"]
+
+python-boltons:
+    ubuntu:
+        default: ["python-boltons"]
+
+python-boto3:
+    ubuntu:
+        default: ["python-boto3"]
+
+python-bottle:
+    ubuntu: ["python-bottle"]
+
+python-box2d:
+    ubuntu: ["python-box2d"]
+
+python-breathe:
+    ubuntu: ["python-breathe"]
+
+python-bs4:
+    ubuntu: ["python-bs4"]
+
+python-bson:
+    ubuntu: ["python-bson"]
+
+python-cairo:
+    ubuntu: ["python-cairo"]
+
+python-cairosvg:
+    ubuntu: ["python-cairosvg"]
+
+python-can:
+    ubuntu:
+        bionic: ["python-can"]
+
+python-cantools-pip:
+    pip: ["cantools"]
+
+python-catkin-lint:
+    ubuntu: ["python-catkin-lint"]
+
+python-catkin-pkg:
+    ubuntu:
+        bionic: ["python-catkin-pkg"]
+
+python-catkin-pkg-modules:
+    ubuntu: ["python-catkin-pkg-modules"]
+
+python-catkin-sphinx:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-catkin-sphinx"]
+
+python-catkin-tools:
+    ubuntu: ["python-catkin-tools"]
+
+python-cbor:
+    ubuntu: ["python-cbor"]
+
+python-celery:
+    ubuntu: ["python-celery"]
+
+python-certifi:
+    ubuntu:
+        bionic: ["python-certifi"]
+
+python-chainer-mask-rcnn-pip:
+    pip: ["chainer-mask-rcnn"]
+
+python-chainer-pip:
+    pip: ["chainer"]
+
+python-chainercv-pip:
+    pip: ["chainercv"]
+
+python-cheetah:
+    ubuntu: ["python-cheetah"]
+
+python-cherrypy:
+    ubuntu: ["python-cherrypy3"]
+
+python-clearsilver:
+    ubuntu: ["python-clearsilver"]
+
+python-click:
+    ubuntu:
+        bionic: ["python-click"]
+
+python-cobs-pip:
+    pip: ["cobs"]
+
+python-collada:
+    ubuntu: ["python-collada"]
+
+python-colorama:
+    ubuntu: ["python-colorama"]
+
+python-concurrent.futures:
+    ubuntu: ["python-concurrent.futures"]
+
+python-configparser:
+    ubuntu: ["python-configparser"]
+
+python-construct:
+    ubuntu:
+        bionic: ["python-construct"]
+
+python-construct-pip:
+    pip: ["construct"]
+
+python-control-pip:
+    pip: ["control"]
+
+python-cookiecutter:
+    ubuntu: ["python-cookiecutter"]
+
+python-cookiecutter-pip:
+    pip: ["cookiecutter"]
+
+python-couchdb:
+    ubuntu: ["python-couchdb"]
+
+python-coverage:
+    ubuntu:
+        bionic: ["python-coverage"]
+
+python-cpplint:
+    pip: ["cpplint"]
+
+python-crccheck-pip:
+    pip: ["crccheck"]
+
+python-crcmod:
+    ubuntu:
+        bionic: ["python-crcmod"]
+
+python-crypto:
+    ubuntu:
+        bionic: ["python-crypto"]
+
+python-cryptography:
+    ubuntu: ["python-cryptography"]
+
+python-cvxopt:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-cvxopt"]
+
+python-cvxpy-pip:
+    pip: ["cvxpy"]
+
+python-cwiid:
+    ubuntu: ["python-cwiid"]
+
+python-cython-pip:
+    pip: ["cython"]
+
+python-datadog-pip:
+    pip: ["datadog"]
+
+python-dateutil:
+    ubuntu: ["python-dateutil"]
+
+python-deap-pip:
+    pip: ["deap"]
+
+python-debian:
+    ubuntu:
+        bionic: ["python-debian"]
+
+python-decorator:
+    ubuntu: ["python-decorator"]
+
+python-deepdiff-pip:
+    pip: ["deepdiff"]
+
+python-defer-pip:
+    pip: ["defer"]
+
+python-defusedxml:
+    ubuntu: ["python-defusedxml"]
+
+python-dialogflow-pip:
+    pip: ["dialogflow"]
+
+python-django:
+    ubuntu: ["python-django"]
+
+python-django-cors-headers:
+    ubuntu: ["python-django-cors-headers"]
+
+python-django-extensions:
+    ubuntu: ["python-django-extensions"]
+
+python-django-extra-views:
+    ubuntu: ["python-django-extra-views"]
+
+python-djangorestframework:
+    ubuntu: ["python-djangorestframework"]
+
+python-dlib:
+    pip: ["dlib"]
+
+python-docker:
+    ubuntu: ["python-docker"]
+
+python-docopt:
+    ubuntu: ["python-docopt"]
+
+python-docutils:
+    ubuntu:
+        bionic: ["python-docutils"]
+
+python-docx:
+    pip: ["python-docx"]
+
+python-dt-apriltags-pip:
+    pip: ["dt-apriltags"]
+
+python-dxfgrabber-pip:
+    pip: ["dxfgrabber"]
+
+python-easygui:
+    ubuntu: ["python-easygui"]
+
+python-elasticsearch:
+    ubuntu:
+        bionic: ["python-elasticsearch"]
+
+python-empy:
+    ubuntu: ["python-empy"]
+
+python-enum:
+    ubuntu: ["python-enum"]
+
+python-enum34:
+    ubuntu: ["python-enum34"]
+
+python-enum34-pip:
+    pip: ["enum34"]
+
+python-evdev:
+    ubuntu: ["python-evdev"]
+
+python-expiringdict:
+    ubuntu: ["python-expiringdict"]
+
+python-face-alignment-pip:
+    pip: ["face-alignment"]
+
+python-face-recognition-pip:
+    pip: ["face_recognition"]
+
+python-falcon:
+    ubuntu: ["python-falcon"]
+
+python-fastdtw-pip:
+    pip: ["python-fastdtw"]
+
+python-fcl-pip:
+    pip: ["python-fcl"]
+
+python-fcn-pip:
+    pip: ["fcn"]
+
+python-filterpy-pip:
+    pip: ["filterpy"]
+
+python-fixtures:
+    ubuntu: ["python-fixtures"]
+
+python-flake8:
+    ubuntu:
+        bionic: ["python-flake8"]
+
+python-flask:
+    ubuntu:
+        default: ["python-flask"]
+
+python-flask-appbuilder-pip:
+    pip: ["flask-appbuilder"]
+
+python-flask-cors-pip:
+    pip: ["flask-cors"]
+
+python-flatdict-pip:
+    pip: ["flatdict"]
+
+python-freezegun-pip:
+    pip: ["freezegun"]
+
+python-frozendict:
+    ubuntu: ["python-frozendict"]
+
+python-ftdi1:
+    ubuntu: ["python-ftdi1"]
+
+python-funcsigs:
+    ubuntu: ["python-funcsigs"]
+
+python-future:
+    ubuntu:
+        bionic: ["python-future"]
+
+python-fuzzywuzzy-pip:
+    pip: ["fuzzywuzzy"]
+
+python-fysom:
+    pip: ["fysom"]
+
+python-gTTS-pip:
+    pip: ["gTTS"]
+
+python-gcloud-pip:
+    pip: ["gcloud"]
+
+python-gdal:
+    ubuntu:
+        bionic: ["python-gdal"]
+
+python-gdown-pip:
+    pip: ["gdown"]
+
+python-genshi:
+    ubuntu: ["python-genshi"]
+
+python-geocoder-pip:
+    pip: ["geocoder"]
+
+python-geographiclib:
+    ubuntu: ["python-geographiclib"]
+
+python-geopy:
+    ubuntu: ["python-geopy"]
+
+python-gevent:
+    ubuntu: ["python-gevent"]
+
+python-gi:
+    ubuntu: ["python-gi"]
+
+python-gi-cairo:
+    ubuntu: ["python-gi-cairo"]
+
+python-git:
+    ubuntu: ["python-git"]
+
+python-github-pip:
+    pip: ["PyGithub"]
+
+python-gitlab:
+    ubuntu:
+        bionic: ["python-gitlab"]
+
+python-gitpython-pip:
+    pip: ["gitpython"]
+
+python-glpk-pip:
+    pip: ["glpk"]
+
+python-gnupg:
+    ubuntu: ["python-gnupg"]
+
+python-gobject:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-gobject"]
+        focal: ["python-gobject"]
+
+python-google-cloud-bigquery-pip:
+    pip: ["google-cloud-bigquery"]
+
+python-google-cloud-speech-pip:
+    pip: ["google-cloud-speech"]
+
+python-google-cloud-storage-pip:
+    pip: ["google-cloud-storage"]
+
+python-google-cloud-texttospeech-pip:
+    pip: ["google-cloud-texttospeech"]
+
+python-google-cloud-vision-pip:
+    pip: ["google-cloud-vision"]
+
+python-googleapi:
+    ubuntu:
+        bionic: ["python-googleapi"]
+
+python-gpiozero:
+    ubuntu:
+        bionic: ["python-gpiozero"]
+
+python-gputil-pip:
+    pip: ["gputil"]
+
+python-gpxpy:
+    ubuntu:
+        bionic: ["python-gpxpy"]
+
+python-graphitesend-pip:
+    pip: ["graphitesend"]
+
+python-graphviz-pip:
+    pip: ["graphviz"]
+
+python-grpc-tools:
+    pip: ["grpcio-tools"]
+
+python-grpcio:
+    pip: ["grpcio"]
+
+python-gst-1.0:
+    ubuntu: ["python-gst-1.0"]
+
+python-gtk2:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-gtk2"]
+
+python-gurobipy-pip:
+    pip: ["gurobipy"]
+
+python-h5py:
+    ubuntu:
+        default: ["python-h5py"]
+
+python-httplib2:
+    ubuntu:
+        default: ["python-httplib2"]
+
+python-hypothesis:
+    ubuntu:
+        default: ["python-hypothesis"]
+
+python-imageio:
+    ubuntu:
+        bionic: ["python-imageio"]
+
+python-imaging:
+    ubuntu:
+        default: ["python-pil"]
+
+python-imaging-imagetk:
+    ubuntu: ["python-pil.imagetk"]
+
+python-impacket:
+    ubuntu: ["python-impacket"]
+
+python-influxdb:
+    ubuntu:
+        bionic: ["python-influxdb"]
+
+python-inject-pip:
+    pip: ["inject"]
+
+python-inotify-simple-pip:
+    pip: ["inotify-simple"]
+
+python-inputs-pip:
+    pip: ["inputs"]
+
+python-ipdb:
+    ubuntu: ["python-ipdb"]
+
+python-is-python3:
+    ubuntu:
+        default: ["python-is-python3"]
+        bionic: nonexistent
+
+python-itsdangerous:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-itsdangerous"]
+
+python-j1939-pip:
+    pip: ["j1939"]
+
+python-jasmine-pip:
+    pip: ["jasmine"]
+
+python-jetson-gpio-pip:
+    pip: ["Jetson.GPIO"]
+
+python-jetson-stats-pip:
+    pip: ["jetson-stats"]
+
+python-jinja2:
+    ubuntu: ["python-jinja2"]
+
+python-jira-pip:
+    pip: ["jira"]
+
+python-jmespath:
+    ubuntu: ["python-jmespath"]
+
+python-joblib:
+    ubuntu: ["python-joblib"]
+
+python-jsonpickle:
+    ubuntu: ["python-jsonpickle"]
+
+python-jsonpyes-pip:
+    pip: ["jsonpyes"]
+
+python-jsonref-pip:
+    pip: ["jsonref"]
+
+python-jsonschema:
+    ubuntu: ["python-jsonschema"]
+
+python-jsonschema-pip:
+    pip: ["jsonschema"]
+
+python-jwt:
+    ubuntu: ["python-jwt"]
+
+python-kdtree:
+    pip: ["kdtree"]
+
+python-keras-pip:
+    pip: ["keras"]
+
+python-keras-rl-pip:
+    pip: ["keras-rl"]
+
+python-kitchen:
+    ubuntu: ["python-kitchen"]
+
+python-kml:
+    ubuntu: ["python-kml"]
+
+python-kombu:
+    ubuntu: ["python-kombu"]
+
+python-kombu-pip:
+    pip: ["kombu"]
+
+python-levenshtein:
+    ubuntu: ["python-levenshtein"]
+
+python-libpcap:
+    ubuntu: ["python-libpcap"]
+
+python-libpgm-pip:
+    pip: ["libpgm"]
+
+python-librabbitmq-pip:
+    pip: ["librabbitmq"]
+
+python-lindypy-pip:
+    pip: ["lindypy"]
+
+python-lttngust:
+    pip: ["python-lttngust"]
+
+python-luis-pip:
+    pip: ["luis"]
+
+python-lxml:
+    ubuntu:
+        bionic: ["python-lxml"]
+        focal: ["python-lxml"]
+
+python-lzf-pip:
+    pip: ["python-lzf"]
+
+python-mahotas:
+    pip: ["mahotas"]
+
+python-mako:
+    ubuntu: ["python-mako"]
+
+python-mapnik:
+    ubuntu: ["python-mapnik"]
+
+python-marisa:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-marisa"]
+
+python-markdown:
+    ubuntu: ["python-markdown"]
+
+python-marshmallow:
+    pip: ["marshmallow"]
+
+python-math3d-pip:
+    pip: ["math3d"]
+
+python-matplotlib:
+    ubuntu:
+        bionic: ["python-matplotlib"]
+
+python-mechanize:
+    ubuntu: ["python-mechanize"]
+
+python-mistune:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-mistune"]
+
+python-mock:
+    ubuntu:
+        bionic: ["python-mock"]
+
+python-monotonic:
+    ubuntu: ["python-monotonic"]
+
+python-more-itertools:
+    ubuntu:
+        default: ["python-more-itertools"]
+
+python-msgpack:
+    ubuntu: ["python-msgpack"]
+
+python-multicast:
+    pip: ["py-multicast"]
+
+python-multiprocess-pip:
+    pip: ["multiprocess"]
+
+python-mysqldb:
+    ubuntu: ["python-mysqldb"]
+
+python-namedlist-pip:
+    pip: ["namedlist"]
+
+python-nclib-pip:
+    pip: ["nclib"]
+
+python-netaddr:
+    ubuntu:
+        bionic: ["python-netaddr"]
+
+python-netcdf4:
+    ubuntu: ["python-netcdf4"]
+
+python-netifaces:
+    ubuntu:
+        bionic: ["python-netifaces"]
+
+python-networkmanager:
+    ubuntu: ["python-networkmanager"]
+
+python-networkx:
+    ubuntu:
+        default: ["python-networkx"]
+
+python-nose:
+    ubuntu:
+        default: ["python-nose"]
+
+python-ntplib:
+    ubuntu: ["python-ntplib"]
+
+python-numpy:
+    ubuntu:
+        bionic: ["python-numpy"]
+        focal: ["python-numpy"]
+
+python-numpy-quaternion-pip:
+    pip: ["numpy-quaternion"]
+
+python-numpy-stl-pip:
+    pip: ["numpy-stl"]
+
+python-numpydoc:
+    ubuntu: ["python-numpydoc"]
+
+python-oauth2client:
+    ubuntu: ["python-oauth2client"]
+
+python-objectpath-pip:
+    pip: ["objectpath"]
+
+python-omniorb:
+    ubuntu:
+        focal: ["python-omniorb", "python-omniorb-omg", "omniidl-python"]
+
+python-open3d-pip:
+    pip: ["open3d-python"]
+
+python-opencv:
+    ubuntu: ["python-opencv"]
+
+python-opencv-contrib-pip:
+    pip: ["opencv-contrib-python"]
+
+python-opengl:
+    ubuntu:
+        bionic: ["python-opengl"]
+
+python-openssl:
+    ubuntu: ["python-openssl"]
+
+python-oyaml-pip:
+    pip: ["oyaml"]
+
+python-packaging:
+    ubuntu: ["python-packaging"]
+
+python-paho-mqtt:
+    ubuntu:
+        bionic: ["python-paho-mqtt"]
+
+python-paho-mqtt-pip:
+    pip: ["paho-mqtt"]
+
+python-pandacan-pip:
+    pip: ["pandacan"]
+
+python-pandas:
+    ubuntu: ["python-pandas"]
+
+python-parameterized:
+    ubuntu:
+        bionic: ["python-parameterized"]
+
+python-paramiko:
+    ubuntu: ["python-paramiko"]
+
+python-parse:
+    ubuntu: ["python-parse"]
+
+python-parso:
+    ubuntu:
+        bionic: ["python-parso"]
+
+python-passlib:
+    ubuntu: ["python-passlib"]
+
+python-pastedeploy:
+    ubuntu: ["python-pastedeploy"]
+
+python-path.py:
+    pip: ["path.py"]
+
+python-pathlib:
+    ubuntu: ["python-pathlib"]
+
+python-pathlib2:
+    ubuntu:
+        default: ["python-pathlib2"]
+
+python-pathos-pip:
+    pip: ["pathos"]
+
+python-pbr:
+    ubuntu: ["python-pbr"]
+
+python-pcapy:
+    ubuntu: ["python-pcapy"]
+
+python-pcg-gazebo-pip:
+    pip: ["pcg-gazebo"]
+
+python-pep8:
+    ubuntu:
+        default: ["python-pep8"]
+
+python-percol:
+    pip: ["percol"]
+
+python-periphery-pip:
+    pip: ["python-periphery"]
+
+python-persist-queue-pip:
+    pip: ["persist-queue"]
+
+python-pexpect:
+    ubuntu: ["python-pexpect"]
+
+python-pip:
+    ubuntu: ["python-pip"]
+
+python-pixel-ring-pip:
+    pip: ["pixel-ring"]
+
+python-pkg-resources:
+    ubuntu: ["python-pkg-resources"]
+
+python-planar-pip:
+    pip: ["planar"]
+
+python-plyfile-pip:
+    pip: ["plyfile"]
+
+python-poster:
+    ubuntu: ["python-poster"]
+
+python-pqdict-pip:
+    pip: ["pqdict"]
+
+python-prettytable:
+    ubuntu: ["python-prettytable"]
+
+python-progressbar:
+    ubuntu:
+        bionic: ["python-progressbar"]
+
+python-progressbar2-pip:
+    pip: ["progressbar2"]
+
+python-protobuf:
+    ubuntu: ["python-protobuf"]
+
+python-psutil:
+    ubuntu:
+        default: ["python-psutil"]
+
+python-pulsectl-pip:
+    pip: ["pulsectl"]
+
+python-pyassimp:
+    ubuntu:
+        bionic: ["python-pyassimp"]
+
+python-pyaudio:
+    ubuntu: ["python-pyaudio"]
+
+python-pycodestyle:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python-pycodestyle"]
+
+python-pycpd-pip:
+    pip: ["pycpd"]
+
+python-pycryptodome:
+    ubuntu: ["python-pycryptodome"]
+
+python-pycurl:
+    ubuntu: ["python-pycurl"]
+
+python-pydbus:
+    ubuntu:
+        bionic: ["python-pydbus"]
+
+python-pydot:
+    ubuntu: ["python-pydot"]
+
+python-pyexiv2:
+    ubuntu: ["python-pyexiv2"]
+
+python-pyftpdlib:
+    ubuntu: ["python-pyftpdlib"]
+
+python-pygame:
+    ubuntu: ["python-pygame"]
+
+python-pygithub3:
+    pip: ["pygithub3"]
+
+python-pygps-pip:
+    pip: ["pyGPs"]
+
+python-pygraph:
+    ubuntu: ["python-pygraph"]
+
+python-pygraphviz:
+    ubuntu: ["python-pygraphviz"]
+
+python-pyinotify:
+    ubuntu: ["python-pyinotify"]
+
+python-pykalman:
+    pip: ["pykalman"]
+
+python-pylibftdi-pip:
+    pip: ["pylibftdi"]
+
+python-pylint:
+    ubuntu: ["pylint"]
+
+python-pylint3:
+    ubuntu:
+        default: ["pylint"]
+        bionic: ["pylint3"]
+
+python-pymavlink:
+    pip: ["pymavlink"]
+
+python-pymodbus:
+    ubuntu:
+        bionic: ["python-pymodbus"]
+
+python-pymodbus-pip:
+    pip: ["pymodbus"]
+
+python-pymongo:
+    ubuntu:
+        default: ["python-pymongo"]
+
+python-pymouse:
+    pip: ["pymouse"]
+
+python-pynfft:
+    ubuntu: ["python-pynfft"]
+
+python-pynmea2:
+    pip: ["pynmea2"]
+
+python-pypcd-pip:
+    pip: ["pypcd"]
+
+python-pypng:
+    ubuntu:
+        bionic: ["python-png"]
+
+python-pypozyx-pip:
+    pip: ["pypozyx"]
+
+python-pyproj:
+    ubuntu: ["python-pyproj"]
+
+python-pyqrcode:
+    ubuntu:
+        bionic: ["python-pyqrcode"]
+
+python-pyqtgraph:
+    ubuntu:
+        bionic: ["python-pyqtgraph"]
+
+python-pyquery:
+    ubuntu: ["python-pyquery"]
+
+python-pyramid:
+    ubuntu: ["python-pyramid"]
+
+python-pyrealsense2-pip:
+    pip: ["pyrealsense2"]
+
+python-pysimplegui27-pip:
+    pip: ["pysimplegui27"]
+
+python-pysnmp:
+    ubuntu: ["python-pysnmp4"]
+
+python-pytesseract-pip:
+    pip: ["pytesseract"]
+
+python-pytest:
+    ubuntu: ["python-pytest"]
+
+python-pytest-cov:
+    ubuntu: ["python-pytest-cov"]
+
+python-pytest-dependency-pip:
+    pip: ["pytest-dependency"]
+
+python-pytest-mock:
+    ubuntu: ["python-pytest-mock"]
+
+python-pytest-qt-pip:
+    pip: ["pytest-qt"]
+
+python-pytides-pip:
+    pip: ["pytides"]
+
+python-pytorch-pip:
+    pip: ["torch", "torchvision"]
+
+python-pytz-pip:
+    pip: ["pytz"]
+
+python-pyudev:
+    ubuntu:
+        default: ["python-pyudev"]
+
+python-pyusb-pip:
+    pip: ["pyusb"]
+
+python-pyuserinput:
+    pip: ["PyUserInput"]
+
+python-pyvirtualdisplay-pip:
+    pip: ["pyvirtualdisplay"]
+
+python-pyxhook-pip:
+    pip: ["pyxhook"]
+
+python-pyzbar-pip:
+    pip: ["pyzbar"]
+
+python-qrencode:
+    ubuntu: ["python-qrencode"]
+
+python-qt-bindings:
+    ubuntu:
+        default: ["python-pyside", "libpyside-dev", "libshiboken-dev", "shiboken", "python-qt4", "python-qt4-dev", "python-sip-dev"]
+
+python-qt-bindings-gl:
+    ubuntu: ["python-qt4-gl"]
+
+python-qt-bindings-qwt5:
+    ubuntu: ["python-qwt5-qt4"]
+
+python-qt-bindings-webkit:
+    ubuntu: ["python-qt4"]
+
+python-qt4-gl:
+    ubuntu: ["python-qt4-gl"]
+
+python-qt5-bindings:
+    ubuntu:
+        bionic: ["pyqt5-dev", "python-pyqt5", "python-pyqt5.qtsvg", "python-sip-dev"]
+
+python-qt5-bindings-gl:
+    ubuntu:
+        bionic: ["python-pyqt5.qtopengl"]
+
+python-qt5-bindings-qsci:
+    ubuntu: ["python-pyqt5.qsci"]
+
+python-qt5-bindings-quick:
+    ubuntu: ["python-pyqt5.qtquick"]
+
+python-qt5-bindings-webkit:
+    ubuntu:
+        bionic: ["python-pyqt5.qtwebkit"]
+
+python-qtpy:
+    ubuntu: ["python-qtpy"]
+
+python-qwt5-qt4:
+    ubuntu: ["python-qwt5-qt4"]
+
+python-rdflib:
+    ubuntu: ["python-rdflib"]
+
+python-readchar-pip:
+    pip: ["readchar"]
+
+python-redis:
+    ubuntu: ["python-redis"]
+
+python-redis-pip:
+    pip: ["redis"]
+
+python-requests:
+    ubuntu:
+        default: ["python-requests"]
+
+python-requests-oauthlib:
+    ubuntu: ["python-requests-oauthlib"]
+
+python-responses-pip:
+    pip: ["responses"]
+
+python-rosdep:
+    ubuntu:
+        bionic: ["python-rosdep"]
+
+python-rosdep-modules:
+    ubuntu: ["python-rosdep-modules"]
+
+python-rosinstall:
+    ubuntu:
+        default: ["python-rosinstall"]
+
+python-rosinstall-generator:
+    ubuntu: ["python-rosinstall-generator"]
+
+python-rospkg:
+    ubuntu:
+        default: ["python-rospkg"]
+
+python-rospkg-modules:
+    ubuntu: ["python-rospkg-modules"]
+
+python-rpi.gpio:
+    ubuntu:
+        bionic: ["python-rpi.gpio"]
+
+python-rpi.gpio-pip:
+    pip: ["RPi.GPIO"]
+
+python-rtree:
+    ubuntu: ["python-rtree"]
+
+python-ruamel.yaml:
+    ubuntu:
+        bionic: ["python-ruamel.yaml"]
+
+python-rx-pip:
+    pip: ["rx"]
+
+python-sbp-pip:
+    pip: ["sbp"]
+
+python-scapy:
+    ubuntu: ["python-scapy"]
+
+python-schedule:
+    ubuntu: ["python-schedule"]
+
+python-scipy:
+    ubuntu:
+        default: ["python-scipy"]
+
+python-scp:
+    ubuntu: ["python-scp"]
+
+python-seaborn:
+    ubuntu:
+        bionic: ["python-seaborn"]
+
+python-selectors2-pip:
+    pip: ["selectors2"]
+
+python-selenium-pip:
+    pip: ["selenium"]
+
+python-semantic-version:
+    ubuntu:
+        bionic: ["python-semantic-version"]
+
+python-semver:
+    ubuntu: ["python-semver"]
+
+python-serial:
+    ubuntu:
+        bionic: ["python-serial"]
+
+python-setproctitle:
+    ubuntu: ["python-setproctitle"]
+
+python-setuptools:
+    ubuntu:
+        bionic: ["python-setuptools"]
+
+python-sexpdata:
+    pip: ["sexpdata"]
+
+python-sh:
+    ubuntu:
+        bionic: ["python-sh"]
+
+python-shapely:
+    ubuntu:
+        default: ["python-shapely"]
+
+python-simplejson:
+    ubuntu: ["python-simplejson"]
+
+python-singledispatch:
+    ubuntu: ["python-singledispatch"]
+
+python-sip:
+    ubuntu:
+        default: ["python-sip-dev"]
+
+python-six:
+    ubuntu: ["python-six"]
+
+python-skimage:
+    ubuntu:
+        bionic: ["python-skimage"]
+
+python-skimage-pip:
+    pip: ["scikit-image"]
+
+python-sklearn:
+    ubuntu:
+        default: ["python-sklearn"]
+
+python-slackclient-pip:
+    pip: ["slackclient"]
+
+python-slacker-cli:
+    pip: ["slacker-cli"]
+
+python-slycot-pip:
+    pip: ["slycot"]
+
+python-smbus:
+    ubuntu: ["python-smbus"]
+
+python-sortedcontainers-pip:
+    pip: ["sortedcontainers"]
+
+python-sparqlwrapper:
+    ubuntu: ["python-sparqlwrapper"]
+
+python-speechrecognition-pip:
+    pip: ["speechrecognition"]
+
+python-sphinx:
+    ubuntu:
+        default: ["python-sphinx"]
+
+python-sphinx-argparse:
+    ubuntu:
+        bionic: ["python-sphinx-argparse"]
+
+python-sphinx-rtd-theme:
+    ubuntu:
+        bionic: ["python-sphinx-rtd-theme"]
+
+python-spidev-pip:
+    pip: ["spidev"]
+
+python-sqlalchemy:
+    ubuntu:
+        bionic: ["python-sqlalchemy"]
+
+python-sqlite:
+    ubuntu: ["python-sqlite"]
+
+python-statistics-pip:
+    pip: ["statistics"]
+
+python-statsd:
+    ubuntu: ["python-statsd"]
+
+python-subprocess32:
+    ubuntu:
+        default: ["python-subprocess32"]
+
+python-support:
+    ubuntu: ["python-support"]
+
+python-svg.path:
+    ubuntu:
+        bionic: ["python-svg.path"]
+
+python-svn:
+    ubuntu: ["python-svn"]
+
+python-sympy:
+    ubuntu:
+        bionic: ["python-sympy"]
+
+python-systemd:
+    ubuntu:
+        bionic: ["python-systemd"]
+
+python-sysv-ipc:
+    ubuntu: ["python-sysv-ipc"]
+
+python-tablib:
+    ubuntu: ["python-tablib"]
+
+python-tablib-pip:
+    pip: ["tablib"]
+
+python-tabulate:
+    ubuntu:
+        bionic: ["python-tabulate"]
+
+python-tabulate-pip:
+    pip: ["tabulate"]
+
+python-tblib:
+    ubuntu: ["python-tblib"]
+
+python-telegram-bot:
+    pip: ["python-telegram-bot"]
+
+python-tensorboard-pip:
+    pip: ["tensorboard"]
+
+python-tensorboardX-pip:
+    pip: ["tensorboardX"]
+
+python-tensorflow-gpu-pip:
+    pip: ["tensorflow-gpu"]
+
+python-tensorflow-hub-pip:
+    pip: ["tensorflow-hub"]
+
+python-tensorflow-pip:
+    pip: ["tensorflow"]
+
+python-tensorflow-serving-api-pip:
+    pip: ["tensorflow-serving-api"]
+
+python-termcolor:
+    ubuntu:
+        default: ["python-termcolor"]
+
+python-testscenarios:
+    ubuntu: ["python-testscenarios"]
+
+python-testtools:
+    ubuntu: ["python-testtools"]
+
+python-texttable:
+    ubuntu:
+        bionic: ["python-texttable"]
+
+python-tftpy:
+    ubuntu: ["python-tftpy"]
+
+python-tilestache:
+    ubuntu: ["tilestache"]
+
+python-tk:
+    ubuntu:
+        default: ["python-tk"]
+
+python-toml:
+    ubuntu: ["python-toml"]
+
+python-tornado:
+    ubuntu: ["python-tornado"]
+
+python-tornado-couchdb-pip:
+    pip: ["tornado-couchdb"]
+
+python-tornado-pip:
+    pip: ["tornado"]
+
+python-tqdm:
+    ubuntu:
+        bionic: ["python-tqdm"]
+
+python-transforms3d-pip:
+    pip: ["transforms3d"]
+
+python-transitions:
+    ubuntu:
+        bionic: ["python-transitions"]
+
+python-trep:
+    pip: ["trep"]
+
+python-triangle-pip:
+    pip: ["triangle"]
+
+python-trimesh-pip:
+    pip: ["trimesh"]
+
+python-twilio-pip:
+    pip: ["twilio"]
+
+python-twisted-bin:
+    ubuntu: ["python-twisted-bin"]
+
+python-twisted-core:
+    ubuntu: ["python-twisted-core"]
+
+python-twisted-web:
+    ubuntu: ["python-twisted-web"]
+
+python-twitter:
+    ubuntu: ["python-twitter"]
+
+python-typing:
+    ubuntu:
+        default: ["python-typing"]
+
+python-typing-pip:
+    pip: ["typing"]
+
+python-tz:
+    ubuntu: ["python-tz"]
+
+python-tzlocal-pip:
+    pip: ["tzlocal"]
+
+python-ubjson:
+    ubuntu:
+        bionic: ["python-ubjson"]
+
+python-ujson:
+    ubuntu:
+        bionic: ["python-ujson"]
+
+python-unittest2:
+    ubuntu: ["python-unittest2"]
+
+python-urlgrabber:
+    ubuntu: ["python-urlgrabber"]
+
+python-urllib3:
+    ubuntu: ["python-urllib3"]
+
+python-usb:
+    ubuntu: ["python-usb"]
+
+python-utm-pip:
+    pip: ["utm"]
+
+python-validictory-pip:
+    pip: ["validictory"]
+
+python-vcstool:
+    ubuntu: ["python-vcstool"]
+
+python-vedo-pip:
+    pip: ["vedo"]
+
+python-vine-pip:
+    pip: ["vine"]
+
+python-virtualenv:
+    ubuntu: ["python-virtualenv"]
+
+python-visual:
+    ubuntu: ["python-visual"]
+
+python-vlc-pip:
+    pip: ["python-vlc"]
+
+python-voluptuous:
+    ubuntu: ["python-voluptuous"]
+
+python-vtk:
+    ubuntu:
+        bionic: ["python-vtk6"]
+
+python-w1thermsensor-pip:
+    pip: ["w1thermsensor"]
+
+python-waitress:
+    ubuntu: ["python-waitress"]
+
+python-walrus-pip:
+    pip: ["walrus"]
+
+python-watchdog:
+    ubuntu:
+        bionic: ["python-watchdog"]
+
+python-webob:
+    ubuntu: ["python-webob"]
+
+python-webpy:
+    ubuntu: ["python-webpy"]
+
+python-webrtcvad-pip:
+    pip: ["webrtcvad"]
+
+python-websocket:
+    ubuntu:
+        bionic: ["python-websocket"]
+
+python-webtest:
+    ubuntu: ["python-webtest"]
+
+python-werkzeug:
+    ubuntu: ["python-werkzeug"]
+
+python-wheel:
+    ubuntu: ["python-wheel"]
+
+python-whichcraft:
+    ubuntu: ["python-whichcraft"]
+
+python-wrapt:
+    ubuntu: ["python-wrapt"]
+
+python-ws4py:
+    ubuntu: ["python-ws4py"]
+
+python-ws4py-pip:
+    pip: ["ws4py"]
+
+python-wstool:
+    ubuntu: ["python-wstool"]
+
+python-wtforms:
+    ubuntu: ["python-wtforms"]
+
+python-wxtools:
+    ubuntu: ["python-wxtools"]
+
+python-xdot:
+    ubuntu: ["xdot"]
+
+python-xlib:
+    ubuntu: ["python-xlib"]
+
+python-xlrd:
+    ubuntu: ["python-xlrd"]
+
+python-xmlplain-pip:
+    pip: ["xmlplain"]
+
+python-xmltodict:
+    ubuntu:
+        bionic: ["python-xmltodict"]
+
+python-yamale-pip:
+    pip: ["yamale"]
+
+python-yaml:
+    ubuntu:
+        bionic: ["python-yaml"]
+        focal: ["python-yaml"]
+
+python-zbar:
+    ubuntu: ["python-zbar"]
+
+python-zmq:
+    ubuntu:
+        default: ["python-zmq"]
+
+python3:
+    ubuntu: ["python3-dev"]
+
+python3-adafruit-blinka-pip:
+    pip: ["Adafruit-Blinka"]
+
+python3-adafruit-circuitpython-ads1x15-pip:
+    pip: ["adafruit-circuitpython-ads1x15"]
+
+python3-adafruit-circuitpython-bno055-pip:
+    pip: ["adafruit-circuitpython-bno055"]
+
+python3-adafruit-circuitpython-bno08x-pip:
+    pip: ["adafruit-circuitpython-bno08x"]
+
+python3-adafruit-circuitpython-lsm9ds0-pip:
+    pip: ["adafruit-circuitpython-lsm9ds0"]
+
+python3-adafruit-circuitpython-mcp230xx-pip:
+    pip: ["adafruit-circuitpython-mcp230xx"]
+
+python3-adafruit-circuitpython-mpu6050-pip:
+    pip: ["adafruit-circuitpython-mpu6050"]
+
+python3-adapt-parser-pip:
+    pip: ["adapt-parser"]
+
+python3-ahrs-pip:
+    pip: ["ahrs"]
+
+python3-aio-pika-pip:
+    pip: ["aio-pika"]
+
+python3-aiohttp:
+    ubuntu: ["python3-aiohttp"]
+
+python3-aiohttp-cors:
+    ubuntu: ["python3-aiohttp-cors"]
+
+python3-aiortc:
+    ubuntu:
+        jammy: ["python3-aiortc"]
+
+python3-albumentations-pip:
+    pip: ["albumentations"]
+
+python3-alembic:
+    ubuntu: ["python3-alembic"]
+
+python3-alsaaudio:
+    ubuntu: ["python3-alsaaudio"]
+
+python3-ansible-runner-pip:
+    pip: ["ansible-runner"]
+
+python3-antlr4:
+    ubuntu:
+        default: ["python3-antlr4"]
+        focal: nonexistent
+
+python3-anytree-pip:
+    pip: ["anytree"]
+
+python3-apa102-pi-pip:
+    pip: ["apa102-pi"]
+
+python3-argcomplete:
+    ubuntu: ["python3-argcomplete"]
+
+python3-astropy-pip:
+    pip: ["astropy"]
+
+python3-asyncssh:
+    ubuntu: ["python3-asyncssh"]
+
+python3-attrs:
+    ubuntu: ["python3-attr"]
+
+python3-autobahn:
+    ubuntu: ["python3-autobahn"]
+
+python3-awsiotsdk-pip:
+    pip: ["awsiotsdk"]
+
+python3-babel:
+    ubuntu: ["python3-babel"]
+
+python3-babeltrace:
+    ubuntu: ["python3-babeltrace"]
+
+python3-backoff-pip:
+    pip: ["backoff"]
+
+python3-bcrypt:
+    ubuntu: ["python3-bcrypt"]
+
+python3-beartype:
+    ubuntu:
+        default: ["python3-beartype"]
+        focal: nonexistent
+        jammy: nonexistent
+
+python3-bidict:
+    ubuntu:
+        default: ["python3-bidict"]
+        bionic: nonexistent
+
+python3-bitarray:
+    ubuntu: ["python3-bitarray"]
+
+python3-bitstring:
+    ubuntu: ["python3-bitstring"]
+
+python3-bloom:
+    ubuntu: ["python3-bloom"]
+
+python3-bluerobotics-ping-pip:
+    pip: ["bluerobotics-ping"]
+
+python3-bluez:
+    ubuntu:
+        default: ["python3-bluez"]
+        bionic: nonexistent
+
+python3-bokeh-pip:
+    pip: ["bokeh"]
+
+python3-bosdyn-api-pip:
+    pip: ["bosdyn-api", "bosdyn-choreography-protos"]
+
+python3-bosdyn-client-pip:
+    pip: ["bosdyn-client", "bosdyn-choreography-client"]
+
+python3-bosdyn-core-pip:
+    pip: ["bosdyn-core"]
+
+python3-bosdyn-mission-pip:
+    pip: ["bosdyn-mission"]
+
+python3-boto3:
+    ubuntu: ["python3-boto3"]
+
+python3-bottle:
+    ubuntu: ["python3-bottle"]
+
+python3-box:
+    pip: ["python-box"]
+    pip: ["python-box"]
+
+python3-breathe:
+    ubuntu: ["python3-breathe"]
+
+python3-bs4:
+    ubuntu: ["python3-bs4"]
+
+python3-bson:
+    ubuntu: ["python3-bson"]
+
+python3-build:
+    ubuntu:
+        default: ["python3-build"]
+        focal: nonexistent
+
+python3-cairo:
+    ubuntu: ["python3-cairo"]
+
+python3-cairosvg:
+    ubuntu: ["python3-cairosvg"]
+
+python3-can:
+    ubuntu:
+        default: ["python3-can"]
+
+python3-can-j1939-pip:
+    pip: ["can-j1939"]
+
+python3-cantools-pip:
+    pip: ["cantools"]
+
+python3-catkin-lint:
+    ubuntu:
+        default: ["catkin-lint"]
+        bionic: nonexistent
+
+python3-catkin-pkg:
+    ubuntu: ["python3-catkin-pkg"]
+
+python3-catkin-pkg-modules:
+    ubuntu: ["python3-catkin-pkg-modules"]
+
+python3-catkin-sphinx:
+    ubuntu:
+        default: nonexistent
+        focal: ["python3-catkin-sphinx"]
+
+python3-catkin-tools:
+    ubuntu: ["python3-catkin-tools"]
+
+python3-cbor2:
+    pip: ["cbor2"]
+    pip: ["cbor2"]
+
+python3-certifi:
+    ubuntu: ["python3-certifi"]
+
+python3-cffi:
+    ubuntu: ["python3-cffi"]
+
+python3-chainer-pip:
+    pip: ["chainer"]
+
+python3-charisma-sdk-pip:
+    pip: ["charisma-sdk"]
+
+python3-cherrypy3:
+    ubuntu: ["python3-cherrypy3"]
+
+python3-click:
+    ubuntu: ["python3-click"]
+
+python3-colcon-common-extensions:
+    ubuntu: ["python3-colcon-common-extensions"]
+
+python3-colcon-meson:
+    ubuntu:
+        jammy: ["python3-colcon-meson"]
+
+python3-collada:
+    ubuntu:
+        default: ["python3-collada"]
+        bionic: nonexistent
+
+python3-collada-pip:
+    pip: ["pycollada"]
+
+python3-colorama:
+    ubuntu: ["python3-colorama"]
+
+python3-colorcet:
+    pip: ["colorcet"]
+    pip: ["colorcet"]
+
+python3-conan-pip:
+    pip: ["conan"]
+
+python3-connexion-pip:
+    pip: ["connexion"]
+
+python3-construct:
+    ubuntu: ["python3-construct"]
+
+python3-cookiecutter:
+    ubuntu:
+        default: ["python3-cookiecutter"]
+        focal: nonexistent
+
+python3-coverage:
+    ubuntu: ["python3-coverage"]
+
+python3-crc16-pip:
+    pip: ["crc16"]
+
+python3-crcmod:
+    ubuntu: ["python3-crcmod"]
+
+python3-cryptography:
+    ubuntu: ["python3-cryptography"]
+
+python3-cvxopt:
+    ubuntu: ["python3-cvxopt"]
+
+python3-cvxpy-pip:
+    pip: ["cvxpy"]
+
+python3-cycler:
+    ubuntu: ["python3-cycler"]
+
+python3-dataclasses-json:
+    ubuntu:
+        default: ["python3-dataclasses-json"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-datadog-pip:
+    pip: ["datadog"]
+
+python3-dateutil:
+    ubuntu: ["python3-dateutil"]
+
+python3-dbus:
+    ubuntu: ["python3-dbus"]
+
+python3-decorator:
+    ubuntu: ["python3-decorator"]
+
+python3-deepdiff:
+    pip: ["deepdiff"]
+
+python3-defusedxml:
+    ubuntu: ["python3-defusedxml"]
+
+python3-deprecated:
+    ubuntu:
+        default: ["python3-deprecated"]
+        bionic: nonexistent
+
+python3-depthai-pip:
+    pip: ["depthai"]
+
+python3-dev:
+    ubuntu: ["python3-dev"]
+
+python3-dill:
+    ubuntu: ["python3-dill"]
+
+python3-distro:
+    ubuntu: ["python3-distro"]
+
+python3-distutils:
+    ubuntu:
+        default: nonexistent
+        bionic: ["python3-distutils"]
+        focal: ["python3-distutils"]
+        jammy: ["python3-distutils"]
+
+python3-django:
+    ubuntu: ["python3-django"]
+
+python3-django-cors-headers:
+    ubuntu: ["python3-django-cors-headers"]
+
+python3-django-extensions:
+    ubuntu: ["python3-django-extensions"]
+
+python3-django-extra-views:
+    ubuntu: ["python3-django-extra-views"]
+
+python3-djangorestframework:
+    ubuntu: ["python3-djangorestframework"]
+
+python3-dlib-pip:
+    pip: ["dlib"]
+
+python3-do-mpc-pip:
+    pip: ["do-mpc"]
+
+python3-docker:
+    ubuntu: ["python3-docker"]
+
+python3-docopt:
+    ubuntu: ["python3-docopt"]
+
+python3-docutils:
+    ubuntu: ["python3-docutils"]
+
+python3-dubins-pip:
+    pip: ["dubins"]
+
+python3-easydict:
+    pip: ["easydict"]
+    pip: ["easydict"]
+
+python3-elasticsearch:
+    ubuntu: ["python3-elasticsearch"]
+
+python3-emoji:
+    pip: ["emoji"]
+    pip: ["emoji"]
+
+python3-empy:
+    ubuntu: ["python3-empy"]
+
+python3-environs-pip:
+    pip: ["environs"]
+
+python3-evdev:
+    ubuntu: ["python3-evdev"]
+
+python3-events-pip:
+    pip: ["Events"]
+
+python3-expiringdict:
+    ubuntu: ["python3-expiringdict"]
+
+python3-ezdxf:
+    pip: ["ezdxf"]
+    pip: ["ezdxf"]
+
+python3-fabric:
+    ubuntu: ["python3-fabric"]
+
+python3-falcon:
+    ubuntu: ["python3-falcon"]
+
+python3-fann2:
+    ubuntu: ["python3-fann2"]
+
+python3-fastapi:
+    pip: ["fastapi"]
+    pip: ["fastapi"]
+
+python3-fasteners-pip:
+    pip: ["fasteners"]
+
+python3-fastjsonschema:
+    ubuntu:
+        default: ["python3-fastjsonschema"]
+        focal: nonexistent
+
+python3-fastkml:
+    ubuntu: ["python3-fastkml"]
+
+python3-fastnumbers-pip:
+    pip: ["fastnumbers"]
+
+python3-fcn-pip:
+    pip: ["fcn"]
+
+python3-filetype-pip:
+    pip: ["filetype"]
+
+python3-filfinder-pip:
+    pip: ["fil_finder"]
+
+python3-fiona:
+    ubuntu: ["python3-fiona"]
+
+python3-flake8:
+    ubuntu: ["python3-flake8"]
+
+python3-flake8-black:
+    pip: ["flake8-black"]
+
+python3-flake8-blind-except:
+    ubuntu:
+        default: ["python3-flake8-blind-except"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-blind-except-pip:
+    pip: ["flake8-blind-except"]
+
+python3-flake8-builtins:
+    ubuntu:
+        default: ["python3-flake8-builtins"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-builtins-pip:
+    pip: ["flake8-builtins"]
+
+python3-flake8-class-newline:
+    ubuntu:
+        default: ["python3-flake8-class-newline"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-class-newline-pip:
+    pip: ["flake8-class-newline"]
+
+python3-flake8-comprehensions:
+    ubuntu:
+        default: ["python3-flake8-comprehensions"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-comprehensions-pip:
+    pip: ["flake8-comprehensions"]
+
+python3-flake8-deprecated:
+    ubuntu:
+        default: ["python3-flake8-deprecated"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-deprecated-pip:
+    pip: ["flake8-deprecated"]
+
+python3-flake8-docstrings:
+    ubuntu: ["python3-flake8-docstrings"]
+
+python3-flake8-docstrings-pip:
+    pip: ["flake8-docstrings"]
+
+python3-flake8-import-order:
+    ubuntu:
+        default: ["python3-flake8-import-order"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-import-order-pip:
+    pip: ["flake8-import-order"]
+
+python3-flake8-isort:
+    pip: ["flake8-isort"]
+
+python3-flake8-quotes:
+    ubuntu:
+        default: ["python3-flake8-quotes"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-flake8-quotes-pip:
+    pip: ["flake8-quotes"]
+
+python3-flaky:
+    ubuntu: ["python3-flaky"]
+
+python3-flask:
+    ubuntu: ["python3-flask"]
+
+python3-flask-bcrypt:
+    ubuntu: ["python3-flask-bcrypt"]
+
+python3-flask-cors:
+    ubuntu:
+        default: ["python3-flask-cors"]
+        bionic: nonexistent
+
+python3-flask-jwt-extended:
+    pip: ["flask-jwt-extended"]
+
+python3-flask-migrate:
+    ubuntu: ["python3-flask-migrate"]
+
+python3-flask-restplus-pip:
+    pip: ["flask-restplus"]
+
+python3-flask-socketio:
+    ubuntu: ["python3-flask-socketio"]
+
+python3-flask-sqlalchemy:
+    ubuntu: ["python3-flask-sqlalchemy"]
+
+python3-flatbuffers:
+    pip: ["flatbuffers"]
+    pip: ["flatbuffers"]
+
+python3-fonttools:
+    ubuntu: ["python3-fonttools"]
+
+python3-formant-pip:
+    pip: ["formant"]
+
+python3-fpdf2-pip:
+    pip: ["fpdf2"]
+
+python3-ftdi1:
+    ubuntu: ["python3-ftdi1"]
+
+python3-funcsigs:
+    ubuntu: ["python3-funcsigs"]
+
+python3-future:
+    ubuntu: ["python3-future"]
+
+python3-gdal:
+    ubuntu: ["python3-gdal"]
+
+python3-gdown-pip:
+    pip: ["gdown"]
+
+python3-geographiclib:
+    ubuntu: ["python3-geographiclib"]
+
+python3-geojson:
+    ubuntu: ["python3-geojson"]
+
+python3-geomag-pip:
+    pip: ["geomag"]
+
+python3-geopandas:
+    ubuntu: ["python3-geopandas"]
+
+python3-geopy:
+    ubuntu: ["python3-geopy"]
+
+python3-gi:
+    ubuntu: ["python3-gi"]
+
+python3-gi-cairo:
+    ubuntu: ["python3-gi-cairo"]
+
+python3-git:
+    ubuntu: ["python3-git"]
+
+python3-github:
+    ubuntu: ["python3-github"]
+
+python3-gitlab:
+    ubuntu: ["python3-gitlab"]
+
+python3-glpk-pip:
+    pip: ["glpk"]
+
+python3-gnupg:
+    ubuntu: ["python3-gnupg"]
+
+python3-google-auth:
+    ubuntu: ["python3-google-auth"]
+
+python3-google-auth-httplib2:
+    ubuntu:
+        default: ["python3-google-auth-httplib2"]
+        bionic: nonexistent
+
+python3-google-auth-oauthlib:
+    ubuntu:
+        default: ["python3-google-auth-oauthlib"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-google-cloud-pubsub-pip:
+    pip: ["google-cloud-pubsub"]
+
+python3-google-cloud-secret-manager-pip:
+    pip: ["google-cloud-secret-manager"]
+
+python3-google-cloud-storage-pip:
+    pip: ["google-cloud-storage"]
+
+python3-google-cloud-texttospeech-pip:
+    pip: ["google-cloud-texttospeech"]
+
+python3-googleapi:
+    ubuntu: ["python3-googleapi"]
+
+python3-gpiozero:
+    ubuntu:
+        default: ["python3-gpiozero"]
+        bionic: nonexistent
+
+python3-gpxpy:
+    ubuntu: ["python3-gpxpy"]
+
+python3-gql-pip:
+    pip: ["gql"]
+
+python3-graphviz:
+    ubuntu: ["python3-graphviz"]
+
+python3-grip:
+    ubuntu: ["grip"]
+
+python3-grpc-tools:
+    ubuntu:
+        default: ["python3-grpc-tools"]
+        bionic: nonexistent
+
+python3-grpcio:
+    ubuntu:
+        default: ["python3-grpcio"]
+        bionic: nonexistent
+
+python3-gtts:
+    ubuntu: ["python3-gtts"]
+
+python3-gurobipy-pip:
+    pip: ["gurobipy"]
+
+python3-gymnasium-pip:
+    pip: ["gymnasium"]
+
+python3-gymnasium-robotics-pip:
+    pip: ["gymnasium-robotics"]
+
+python3-gz-math6:
+    ubuntu:
+        focal: ["python3-gz-math6"]
+        jammy: ["python3-gz-math6"]
+
+python3-gz-sim6:
+    ubuntu:
+        focal: ["python3-gz-sim6"]
+        jammy: ["python3-gz-sim6"]
+
+python3-h5py:
+    ubuntu: ["python3-h5py"]
+
+python3-hidapi:
+    ubuntu: ["python3-hid"]
+
+python3-hidapi-cffi:
+    ubuntu: ["python3-hidapi"]
+
+python3-httplib2:
+    ubuntu: ["python3-httplib2"]
+
+python3-hypothesis:
+    ubuntu: ["python3-hypothesis"]
+
+python3-icecream:
+    ubuntu:
+        default: ["python3-icecream"]
+        focal: nonexistent
+
+python3-ifcfg:
+    ubuntu:
+        bionic: ["python3-ifcfg"]
+        focal: ["python3-ifcfg"]
+
+python3-ignition-gazebo6:
+    ubuntu:
+        focal: ["python3-ignition-gazebo6"]
+        jammy: ["python3-ignition-gazebo6"]
+
+python3-ignition-math6:
+    ubuntu:
+        focal: ["python3-ignition-math6"]
+        jammy: ["python3-ignition-math6"]
+
+python3-imageio:
+    ubuntu: ["python3-imageio"]
+
+python3-img2pdf:
+    ubuntu: ["python3-img2pdf"]
+
+python3-importlib-metadata:
+    pip: ["importlib-metadata"]
+
+python3-importlib-resources:
+    pip: ["importlib-resources"]
+
+python3-inflection:
+    ubuntu: ["python3-inflection"]
+
+python3-inflection-pip:
+    pip: ["inflection"]
+
+python3-influxdb:
+    ubuntu: ["python3-influxdb"]
+
+python3-influxdb-client-pip:
+    pip: ["influxdb-client"]
+
+python3-inject-pip:
+    pip: ["inject"]
+
+python3-inputimeout-pip:
+    pip: ["inputimeout"]
+
+python3-insightface-pip:
+    pip: ["insightface"]
+
+python3-interpreter:
+    ubuntu: ["python3-minimal"]
+
+python3-j1939-pip:
+    pip: ["j1939"]
+
+python3-jinja2:
+    ubuntu: ["python3-jinja2"]
+
+python3-jmespath:
+    ubuntu: ["python3-jmespath"]
+
+python3-joblib:
+    ubuntu: ["python3-joblib"]
+
+python3-jsonpickle:
+    ubuntu: ["python3-jsonpickle"]
+
+python3-jsonschema:
+    ubuntu: ["python3-jsonschema"]
+
+python3-junitparser:
+    ubuntu:
+        default: ["python3-junitparser"]
+        bionic: nonexistent
+
+python3-jupyros-pip:
+    pip: ["jupyros"]
+
+python3-jwt:
+    ubuntu: ["python3-jwt"]
+
+python3-kitchen:
+    ubuntu:
+        default: ["python3-kitchen"]
+
+python3-kivy:
+    ubuntu: ["python3-kivy"]
+
+python3-kiwisolver:
+    pip: ["kiwisolver"]
+
+python3-kml2geojson-pip:
+    pip: ["kml2geojson"]
+
+python3-lark-parser:
+    ubuntu:
+        default: ["python3-lark"]
+        bionic: ["python3-lark-parser"]
+
+python3-lensfun:
+    ubuntu: ["python3-lensfun"]
+
+python3-lgpio:
+    pip: ["lgpio"]
+
+python3-libgpiod:
+    ubuntu:
+        default: ["python3-libgpiod"]
+        bionic: nonexistent
+
+python3-libtmux:
+    ubuntu: ["python3-libtmux"]
+
+python3-lingua-franca-pip:
+    pip: ["lingua-franca"]
+
+python3-lockfile:
+    ubuntu: ["python3-lockfile"]
+
+python3-lttng:
+    ubuntu: ["python3-lttng"]
+
+python3-lxml:
+    ubuntu: ["python3-lxml"]
+
+python3-magic:
+    ubuntu: ["python3-magic"]
+
+python3-mako:
+    ubuntu: ["python3-mako"]
+
+python3-mapbox-earcut-pip:
+    pip: ["mapbox-earcut"]
+
+python3-mapnik:
+    ubuntu: ["python3-mapnik"]
+
+python3-marisa:
+    ubuntu: ["python3-marisa"]
+
+python3-markdown:
+    ubuntu: ["python3-markdown"]
+
+python3-marshmallow:
+    ubuntu: ["python3-marshmallow"]
+
+python3-marshmallow-dataclass-pip:
+    pip: ["marshmallow-dataclass"]
+
+python3-matplotlib:
+    ubuntu: ["python3-matplotlib"]
+
+python3-mavproxy-pip:
+    pip: ["MAVProxy"]
+
+python3-mccabe:
+    ubuntu: ["python3-mccabe"]
+
+python3-mechanize:
+    ubuntu:
+        default: ["python3-mechanize"]
+        bionic: nonexistent
+
+python3-mediapipe-pip:
+    pip: ["mediapipe"]
+
+python3-meshio:
+    ubuntu: ["python3-meshio"]
+
+python3-meson-pip:
+    pip: ["meson"]
+
+python3-minijinja:
+    pip: ["minijinja"]
+    pip: ["minijinja"]
+    pip: ["minijinja"]
+
+python3-minimalmodbus-pip:
+    pip: ["minimalmodbus"]
+
+python3-mistune:
+    ubuntu: ["python3-mistune"]
+
+python3-mlflow:
+    pip: ["mlflow"]
+
+python3-mock:
+    ubuntu: ["python3-mock"]
+
+python3-moonraker-api-pip:
+    pip: ["moonraker-api"]
+
+python3-more-itertools:
+    ubuntu: ["python3-more-itertools"]
+
+python3-moteus-pi3hat-pip:
+    pip: ["moteus-pi3hat"]
+
+python3-moteus-pip:
+    pip: ["moteus"]
+
+python3-motor-pip:
+    pip: ["motor"]
+
+python3-msgpack:
+    ubuntu: ["python3-msgpack"]
+
+python3-msk-pip:
+    pip: ["msk"]
+
+python3-msm-pip:
+    pip: ["msm"]
+
+python3-multimethod-pip:
+    pip: ["multimethod"]
+
+python3-multipledispatch:
+    ubuntu:
+        default: ["python3-multipledispatch"]
+        focal: nonexistent
+
+python3-munkres:
+    ubuntu: ["python3-munkres"]
+
+python3-mycroft-messagebus-client-pip:
+    pip: ["mycroft-messagebus-client"]
+
+python3-mypy:
+    ubuntu: ["python3-mypy"]
+
+python3-mysqldb:
+    ubuntu: ["python3-mysqldb"]
+
+python3-myst-parser-pip:
+    pip: ["myst-parser"]
+
+python3-natsort:
+    ubuntu: ["python3-natsort"]
+
+python3-nclib-pip:
+    pip: ["nclib"]
+
+python3-nep-pip:
+    pip: ["nep"]
+
+python3-nest-asyncio:
+    ubuntu:
+        default: ["python3-nest-asyncio"]
+        focal: nonexistent
+
+python3-netcdf4:
+    ubuntu: ["python3-netcdf4"]
+
+python3-netifaces:
+    ubuntu: ["python3-netifaces"]
+
+python3-networkmanager:
+    ubuntu: ["python3-networkmanager"]
+
+python3-networkx:
+    ubuntu: ["python3-networkx"]
+
+python3-nlopt:
+    ubuntu:
+        default: ["python3-nlopt"]
+        bionic: nonexistent
+
+python3-nmcli-pip:
+    pip: ["nmcli"]
+
+python3-nose:
+    ubuntu: ["python3-nose"]
+
+python3-nose-parameterized:
+    ubuntu: ["python3-nose-parameterized"]
+
+python3-nose-yanc:
+    ubuntu: ["python3-nose-yanc"]
+
+python3-ntplib:
+    ubuntu: ["python3-ntplib"]
+
+python3-numba:
+    ubuntu: ["python3-numba"]
+
+python3-numpy:
+    ubuntu: ["python3-numpy"]
+
+python3-numpy-stl:
+    ubuntu:
+        default: ["python3-numpy-stl"]
+
+python3-nuscenes-devkit-pip:
+    pip: ["nuscenes-devkit"]
+
+python3-nxt-python-pip:
+    pip: ["nxt-python"]
+
+python3-oauth2client:
+    ubuntu: ["python3-oauth2client"]
+
+python3-oct2py-pip:
+    pip: ["oct2py"]
+
+python3-odrive-pip:
+    pip: ["odrive"]
+
+python3-ollama-pip:
+    pip: ["ollama"]
+
+python3-omniorb:
+    pip: ["omniorb"]
+
+python3-onnxruntime-gpu-pip:
+    pip: ["onnxruntime-gpu"]
+
+python3-onnxruntime-openvino-pip:
+    pip: ["onnxruntime-openvino"]
+
+python3-onnxruntime-pip:
+    pip: ["onnxruntime"]
+
+python3-open3d:
+    ubuntu:
+        default: ["python3-open3d"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-open3d-pip:
+    pip: ["open3d"]
+
+python3-openai-pip:
+    pip: ["openai"]
+
+python3-opencv:
+    ubuntu: ["python3-opencv"]
+
+python3-opengl:
+    ubuntu: ["python3-opengl"]
+
+python3-openhsi-pip:
+    pip: ["openhsi"]
+
+python3-openpyxl:
+    ubuntu: ["python3-openpyxl"]
+
+python3-orjson:
+    pip: ["orjson"]
+
+python3-osrf-pycommon:
+    ubuntu: ["python3-osrf-pycommon"]
+
+python3-overrides:
+    pip: ["overrides"]
+
+python3-owlready2-pip:
+    pip: ["owlready2"]
+
+python3-owslib:
+    ubuntu: ["python3-owslib"]
+
+python3-packaging:
+    ubuntu: ["python3-packaging"]
+
+python3-padaos-pip:
+    pip: ["padaos"]
+
+python3-padatious-pip:
+    pip: ["padatious"]
+
+python3-paho-mqtt:
+    ubuntu:
+        default: ["python3-paho-mqtt"]
+
+python3-pandas:
+    ubuntu: ["python3-pandas"]
+
+python3-papermill-pip:
+    pip: ["papermill"]
+
+python3-parameterized:
+    ubuntu: ["python3-parameterized"]
+
+python3-paramiko:
+    ubuntu: ["python3-paramiko"]
+
+python3-parse:
+    ubuntu: ["python3-parse"]
+
+python3-pcg-gazebo-pip:
+    pip: ["pcg-gazebo"]
+
+python3-pep8:
+    ubuntu: ["python3-pep8"]
+
+python3-pep8-naming:
+    ubuntu: ["python3-pep8-naming"]
+
+python3-petact-pip:
+    pip: ["petact"]
+
+python3-pexpect:
+    ubuntu: ["python3-pexpect"]
+
+python3-pickleDB-pip:
+    pip: ["pickleDB"]
+
+python3-piexif:
+    ubuntu: ["python3-piexif"]
+
+python3-pigpio:
+    ubuntu: ["python3-pigpio"]
+
+python3-pika:
+    ubuntu: ["python3-pika"]
+
+python3-pil:
+    ubuntu: ["python3-pil"]
+
+python3-pil-imagetk:
+    ubuntu: ["python3-pil.imagetk"]
+
+python3-pip:
+    ubuntu: ["python3-pip"]
+
+python3-pkg-resources:
+    ubuntu: ["python3-pkg-resources"]
+
+python3-playsound-pip:
+    pip: ["playsound"]
+
+python3-ply:
+    ubuntu: ["python3-ply"]
+
+python3-pocketsphinx-pip:
+    pip: ["pocketsphinx"]
+
+python3-polling2-pip:
+    pip: ["polling2"]
+
+python3-pqdict-pip:
+    pip: ["pqdict"]
+
+python3-pre-commit:
+    pip: ["pre-commit"]
+    pip: ["pre-commit"]
+
+python3-precise-runner-pip:
+    pip: ["precise-runner"]
+
+python3-prettytable:
+    ubuntu: ["python3-prettytable"]
+
+python3-progressbar:
+    ubuntu: ["python3-progressbar"]
+
+python3-prometheus-client:
+    ubuntu: ["python3-prometheus-client"]
+
+python3-prompt-toolkit:
+    ubuntu: ["python3-prompt-toolkit"]
+
+python3-protobuf:
+    ubuntu: ["python3-protobuf"]
+
+python3-psutil:
+    ubuntu: ["python3-psutil"]
+
+python3-psycopg2:
+    ubuntu: ["python3-psycopg2"]
+
+python3-py3exiv2-pip:
+    pip: ["py3exiv2"]
+
+python3-pyads-pip:
+    pip: ["pyads"]
+
+python3-pyassimp:
+    ubuntu:
+        default: ["python3-pyassimp"]
+
+python3-pyaudio:
+    ubuntu: ["python3-pyaudio"]
+
+python3-pybullet-pip:
+    pip: ["pybullet"]
+
+python3-pyclipper:
+    ubuntu: ["python3-pyclipper"]
+
+python3-pycodestyle:
+    ubuntu: ["python3-pycodestyle"]
+
+python3-pycryptodome:
+    ubuntu: ["python3-pycryptodome"]
+
+python3-pydantic:
+    pip: ["pydantic"]
+
+python3-pydbus:
+    ubuntu: ["python3-pydbus"]
+
+python3-pydot:
+    ubuntu: ["python3-pydot"]
+
+python3-pyee:
+    ubuntu: ["python3-pyee"]
+
+python3-pyftdi-pip:
+    pip: ["pyftdi"]
+
+python3-pyftpdlib:
+    ubuntu: ["python3-pyftpdlib"]
+
+python3-pygame:
+    pip: ["pygame"]
+
+python3-pygit2:
+    ubuntu: ["python3-pygit2"]
+
+python3-pygments:
+    ubuntu: ["python3-pygments"]
+
+python3-pygraphviz:
+    ubuntu: ["python3-pygraphviz"]
+
+python3-pyinotify:
+    ubuntu: ["python3-pyinotify"]
+
+python3-pykdl:
+    ubuntu:
+        default: ["python3-pykdl"]
+        bionic: nonexistent
+
+python3-pylatexenc:
+    pip: ["pylatexenc"]
+    pip: ["pylatexenc"]
+
+python3-pylibdmtx:
+    pip: ["pylibdmtx"]
+    pip: ["pylibdmtx"]
+
+python3-pymap3d:
+    ubuntu:
+        default: ["python3-pymap3d"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-pymesh2-pip:
+    pip: ["pymesh2"]
+
+python3-pymodbus:
+    ubuntu:
+        default: ["python3-pymodbus"]
+
+python3-pymodbus-pip:
+    pip: ["pymodbus"]
+
+python3-pymongo:
+    ubuntu: ["python3-pymongo"]
+
+python3-pymongo-pip:
+    pip: ["pymongo"]
+
+python3-pynmea2:
+    ubuntu: ["python3-nmea2"]
+
+python3-pynmeagps-pip:
+    pip: ["pynmeagps"]
+
+python3-pynput:
+    ubuntu:
+        default: ["python3-pynput"]
+        focal: nonexistent
+
+python3-pyosmium:
+    ubuntu: ["python3-pyosmium"]
+
+python3-pyotp:
+    ubuntu: ["python3-pyotp"]
+
+python3-pyparsing:
+    ubuntu: ["python3-pyparsing"]
+
+python3-pypdf:
+    pip: ["pypdf"]
+    pip: ["pypdf"]
+    pip: ["pypdf"]
+
+python3-pypng:
+    ubuntu:
+        default: ["python3-png"]
+
+python3-pyproj:
+    ubuntu: ["python3-pyproj"]
+
+python3-pyqrcode:
+    ubuntu: ["python3-pyqrcode"]
+
+python3-pyqt5:
+    ubuntu: ["pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-sip-dev"]
+
+python3-pyqt5.qtquick:
+    ubuntu: ["python3-pyqt5.qtquick"]
+
+python3-pyqt5.qtwebengine:
+    ubuntu: ["python3-pyqt5.qtwebengine"]
+
+python3-pyqt6.qtmultimedia:
+    ubuntu:
+        default: ["python3-pyqt6.qtmultimedia"]
+        focal: nonexistent
+        jammy: nonexistent
+
+python3-pyqtdarktheme-pip:
+    pip: ["pyqtdarktheme"]
+
+python3-pyqtgraph:
+    ubuntu: ["python3-pyqtgraph"]
+
+python3-pyro-ppl-pip:
+    pip: ["pyro-ppl"]
+
+python3-pyrr-pip:
+    pip: ["pyrr"]
+
+python3-pyside2:
+    ubuntu:
+        default: ["libpyside2-dev", "libshiboken2-dev", "python3-pyside2.qtcore", "python3-pyside2.qtgui", "python3-pyside2.qthelp", "python3-pyside2.qtnetwork", "python3-pyside2.qtprintsupport", "python3-pyside2.qtsvg", "python3-pyside2.qttest", "python3-pyside2.qtwidgets", "python3-pyside2.qtxml", "shiboken2"]
+        bionic: nonexistent
+
+python3-pyside2.qtcore:
+    ubuntu: ["python3-pyside2.qtcore"]
+
+python3-pyside2.qtgui:
+    ubuntu: ["python3-pyside2.qtgui"]
+
+python3-pyside2.qtopengl:
+    ubuntu:
+        default: ["python3-pyside2.qtopengl"]
+        bionic: nonexistent
+
+python3-pyside2.qtqml:
+    ubuntu: ["python3-pyside2.qtqml"]
+
+python3-pyside2.qtquick:
+    ubuntu:
+        default: ["python3-pyside2.qtquick"]
+        bionic: nonexistent
+
+python3-pyside2.qtuitools:
+    ubuntu:
+        default: ["python3-pyside2.qtuitools"]
+        bionic: nonexistent
+
+python3-pyside2.qtwidgets:
+    ubuntu: ["python3-pyside2.qtwidgets"]
+
+python3-pyside6:
+    pip: ["PySide6"]
+    pip: ["PySide6"]
+    pip: ["PySide6"]
+
+python3-pyside6.qtasyncio:
+    ubuntu:
+        default: ["python3-pyside6.qtasyncio"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtcharts:
+    ubuntu:
+        default: ["python3-pyside6.qtcharts"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtconcurrent:
+    ubuntu:
+        default: ["python3-pyside6.qtconcurrent"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtcore:
+    ubuntu:
+        default: ["python3-pyside6.qtcore"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtdatavisualization:
+    ubuntu:
+        default: ["python3-pyside6.qtdatavisualization"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtgui:
+    ubuntu:
+        default: ["python3-pyside6.qtgui"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtqml:
+    ubuntu:
+        default: ["python3-pyside6.qtqml"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qttest:
+    ubuntu:
+        default: ["python3-pyside6.qttest"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pyside6.qtwidgets:
+    ubuntu:
+        default: ["python3-pyside6.qtwidgets"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: nonexistent
+
+python3-pysnmp:
+    ubuntu: ["python3-pysnmp4"]
+
+python3-pysnmp-mibs:
+    ubuntu: ["python3-pysnmp4-mibs"]
+
+python3-pystemd:
+    pip: ["pystemd"]
+
+python3-pyswarms-pip:
+    pip: ["pyswarms"]
+
+python3-pytest:
+    ubuntu: ["python3-pytest"]
+
+python3-pytest-asyncio:
+    ubuntu:
+        default: ["python3-pytest-asyncio"]
+        bionic: nonexistent
+
+python3-pytest-benchmark:
+    ubuntu: ["python3-pytest-benchmark"]
+
+python3-pytest-cov:
+    ubuntu: ["python3-pytest-cov"]
+
+python3-pytest-mock:
+    ubuntu: ["python3-pytest-mock"]
+
+python3-pytest-order:
+    ubuntu:
+        default: ["python3-pytest-order"]
+        focal: nonexistent
+
+python3-pytest-pylint:
+    ubuntu: ["python3-pytest-pylint"]
+
+python3-pytest-ruff-pip:
+    pip: ["pytest-ruff"]
+
+python3-pytest-timeout:
+    ubuntu: ["python3-pytest-timeout"]
+
+python3-pytest-xdist:
+    ubuntu: ["python3-pytest-xdist"]
+
+python3-pytest-xvfb:
+    ubuntu: ["python3-pytest-xvfb"]
+
+python3-pytorch-pip:
+    pip: ["torch", "torchvision"]
+
+python3-pytrinamic-pip:
+    pip: ["pytrinamic"]
+
+python3-pyudev:
+    ubuntu: ["python3-pyudev"]
+
+python3-pyvista-pip:
+    pip: ["pyvista"]
+
+python3-pyxdg-pip:
+    pip: ["pyxdg"]
+
+python3-qpsolvers-pip:
+    pip: ["qpsolvers"]
+
+python3-qrcode:
+    ubuntu: ["python3-qrcode"]
+
+python3-qt5-bindings:
+    ubuntu:
+        default: ["libpyside2-dev", "libshiboken2-dev", "pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-pyside2.qtsvg", "python3-sip-dev", "shiboken2"]
+        bionic: ["pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-sip-dev"]
+
+python3-qt5-bindings-gl:
+    ubuntu: ["python3-pyqt5.qtopengl"]
+
+python3-qt5-bindings-webkit:
+    ubuntu: ["python3-pyqt5.qtwebkit"]
+
+python3-qtpy:
+    ubuntu: ["python3-qtpy"]
+
+python3-qwt:
+    ubuntu: ["python3-qwt"]
+
+python3-qwt-pip:
+    pip: ["PythonQwt"]
+
+python3-rafcon-pip:
+    pip: ["rafcon"]
+
+python3-rapidfuzz-pip:
+    pip: ["rapidfuzz"]
+
+python3-rasterio:
+    ubuntu: ["python3-rasterio"]
+
+python3-rdflib:
+    ubuntu: ["python3-rdflib"]
+
+python3-reportlab:
+    ubuntu: ["python3-reportlab"]
+
+python3-requests:
+    ubuntu: ["python3-requests"]
+
+python3-requests-futures:
+    ubuntu: ["python3-requests-futures"]
+
+python3-requests-oauthlib:
+    ubuntu: ["python3-requests-oauthlib"]
+
+python3-requests-toolbelt:
+    ubuntu: ["python3-requests-toolbelt"]
+
+python3-retrying:
+    ubuntu: ["python3-retrying"]
+
+python3-rich:
+    pip: ["rich"]
+
+python3-river-pip:
+    pip: ["river"]
+
+python3-rmsd-pip:
+    pip: ["rmsd"]
+
+python3-robodk-pip:
+    pip: ["robodk"]
+
+python3-rocker:
+    ubuntu: ["python3-rocker"]
+
+python3-rosbags-pip:
+    pip: ["rosbags"]
+
+python3-rosdep:
+    ubuntu: ["python3-rosdep"]
+
+python3-rosdep-modules:
+    ubuntu: ["python3-rosdep-modules"]
+
+python3-rosdistro-modules:
+    ubuntu: ["python3-rosdistro-modules"]
+
+python3-rosinstall-generator:
+    ubuntu: ["python3-rosinstall-generator"]
+
+python3-rospkg:
+    ubuntu: ["python3-rospkg"]
+
+python3-rospkg-modules:
+    ubuntu: ["python3-rospkg-modules"]
+
+python3-rsa:
+    ubuntu: ["python3-rsa"]
+
+python3-rtree:
+    ubuntu: ["python3-rtree"]
+
+python3-ruamel.yaml:
+    ubuntu: ["python3-ruamel.yaml"]
+
+python3-ruff-pip:
+    pip: ["ruff"]
+
+python3-sbp-pip:
+    pip: ["sbp"]
+
+python3-schedule:
+    ubuntu: ["python3-schedule"]
+
+python3-schema:
+    ubuntu: ["python3-schema"]
+
+python3-scikit-sparse-pip:
+    pip: ["scikit-sparse"]
+
+python3-scikit-spatial-pip:
+    pip: ["scikit-spatial"]
+
+python3-scipy:
+    ubuntu: ["python3-scipy"]
+
+python3-scp:
+    ubuntu: ["python3-scp"]
+
+python3-seaborn:
+    ubuntu: ["python3-seaborn"]
+
+python3-segno:
+    pip: ["segno"]
+    pip: ["segno"]
+
+python3-selenium:
+    ubuntu: ["python3-selenium"]
+
+python3-semantic-version:
+    ubuntu: ["python3-semantic-version"]
+
+python3-semver:
+    ubuntu: ["python3-semver"]
+
+python3-sense-emu-pip:
+    pip: ["sense-emu"]
+
+python3-sense-hat-pip:
+    pip: ["sense-hat"]
+
+python3-serial:
+    ubuntu: ["python3-serial"]
+
+python3-setuptools:
+    ubuntu: ["python3-setuptools"]
+
+python3-sexpdata:
+    pip: ["sexpdata"]
+
+python3-sh:
+    ubuntu: ["python3-sh"]
+
+python3-shapely:
+    ubuntu: ["python3-shapely"]
+
+python3-sila2lib-pip:
+    pip: ["sila2lib"]
+
+python3-simple-pid-pip:
+    pip: ["simple-pid"]
+
+python3-simplejpeg-pip:
+    pip: ["simplejpeg"]
+
+python3-simplejson:
+    ubuntu: ["python3-simplejson"]
+
+python3-simplification-pip:
+    pip: ["simplification"]
+
+python3-singleton-pattern-decorator-pip:
+    pip: ["singleton-pattern-decorator"]
+
+python3-sip:
+    ubuntu: ["python3-sip-dev"]
+
+python3-siphon-pip:
+    pip: ["siphon"]
+
+python3-six:
+    ubuntu: ["python3-six"]
+
+python3-skimage:
+    ubuntu: ["python3-skimage"]
+
+python3-sklearn:
+    ubuntu: ["python3-sklearn"]
+
+python3-smbus:
+    ubuntu: ["python3-smbus"]
+
+python3-smbus2:
+    ubuntu:
+        default: ["python3-smbus2"]
+        focal: nonexistent
+
+python3-smbus2-pip:
+    pip: ["smbus2"]
+
+python3-smc-pip:
+    pip: ["smc"]
+
+python3-socketio:
+    ubuntu:
+        default: ["python3-socketio"]
+        bionic: nonexistent
+
+python3-sortedcollections-pip:
+    pip: ["sortedcollections"]
+
+python3-sounddevice-pip:
+    pip: ["sounddevice"]
+
+python3-sparkfun-ublox-gps-pip:
+    pip: ["sparkfun-ublox-gps"]
+
+python3-sphinx:
+    ubuntu: ["python3-sphinx"]
+
+python3-sphinx-argparse:
+    ubuntu: ["python3-sphinx-argparse"]
+
+python3-sphinx-autoapi-pip:
+    pip: ["sphinx-autoapi"]
+
+python3-sphinx-rtd-theme:
+    ubuntu: ["python3-sphinx-rtd-theme"]
+
+python3-spidev-pip:
+    pip: ["spidev"]
+
+python3-sqlalchemy:
+    ubuntu: ["python3-sqlalchemy"]
+
+python3-sqlalchemy-utils:
+    ubuntu: ["python3-sqlalchemy-utils"]
+
+python3-sqlite-utils-pip:
+    pip: ["sqlite-utils"]
+
+python3-sqlmodel:
+    pip: ["sqlmodel"]
+    pip: ["sqlmodel"]
+
+python3-squaternion-pip:
+    pip: ["squaternion"]
+
+python3-sshkeyboard-pip:
+    pip: ["sshkeyboard"]
+
+python3-sshtunnel:
+    ubuntu:
+        focal: ["python3-sshtunnel"]
+        jammy: ["python3-sshtunnel"]
+
+python3-stable-baselines3-pip:
+    pip: ["stable-baselines3"]
+
+python3-staticmap-pip:
+    pip: ["staticmap"]
+
+python3-stonesoup-pip:
+    pip: ["stonesoup"]
+
+python3-streamz:
+    pip: ["streamz"]
+
+python3-suas-interop-clients-pip:
+    pip: ["suas-interop-clients"]
+
+python3-svg.path:
+    ubuntu: ["python3-svg.path"]
+
+python3-sympy:
+    ubuntu: ["python3-sympy"]
+
+python3-systemd:
+    ubuntu: ["python3-systemd"]
+
+python3-sysv-ipc:
+    ubuntu: ["python3-sysv-ipc"]
+
+python3-tables:
+    ubuntu: ["python3-tables"]
+
+python3-tabulate:
+    ubuntu: ["python3-tabulate"]
+
+python3-tcr-roboclaw-pip:
+    pip: ["tcr-roboclaw"]
+
+python3-tensorboardX-pip:
+    pip: ["tensorboardX"]
+
+python3-termcolor:
+    ubuntu: ["python3-termcolor"]
+
+python3-texttable:
+    ubuntu: ["python3-texttable"]
+
+python3-textual:
+    ubuntu:
+        default: ["python3-textual"]
+        focal: nonexistent
+
+python3-thop-pip:
+    pip: ["thop"]
+
+python3-thriftpy:
+    ubuntu: ["python3-thriftpy"]
+
+python3-tikzplotlib-pip:
+    pip: ["tikzplotlib"]
+
+python3-tilestache-pip:
+    pip: ["tilestache"]
+
+python3-timm-pip:
+    pip: ["timm"]
+
+python3-tinkerforge-pip:
+    pip: ["tinkerforge"]
+
+python3-tk:
+    ubuntu: ["python3-tk"]
+
+python3-toml:
+    ubuntu: ["python3-toml"]
+
+python3-toppra-pip:
+    pip: ["toppra"]
+
+python3-torch:
+    ubuntu:
+        default: ["python3-torch"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-torchvision:
+    ubuntu:
+        default: ["python3-torchvision"]
+        bionic: nonexistent
+        focal: nonexistent
+
+python3-tornado:
+    ubuntu: ["python3-tornado"]
+
+python3-tqdm:
+    ubuntu:
+        default: ["python3-tqdm"]
+
+python3-transformers-pip:
+    pip: ["transformers"]
+
+python3-transforms3d:
+    pip: ["transforms3d"]
+    pip: ["transforms3d"]
+
+python3-transitions:
+    ubuntu: ["python3-transitions"]
+
+python3-triangle-pip:
+    pip: ["triangle"]
+
+python3-trimesh-pip:
+    pip: ["trimesh"]
+
+python3-twilio:
+    ubuntu: ["python3-twilio"]
+
+python3-twisted:
+    ubuntu: ["python3-twisted"]
+
+python3-typeguard:
+    pip: ["typeguard"]
+
+python3-typeguard-pip:
+    pip: ["typeguard"]
+
+python3-types-pyyaml:
+    pip: ["types-pyyaml"]
+
+python3-typing-extensions:
+    pip: ["typing-extensions"]
+
+python3-tz:
+    ubuntu: ["python3-tz"]
+
+python3-ubjson:
+    ubuntu:
+        default: ["python3-ubjson"]
+
+python3-ujson:
+    ubuntu: ["python3-ujson"]
+
+python3-ultralytics-pip:
+    pip: ["ultralytics"]
+
+python3-unidecode:
+    ubuntu: ["python3-unidecode"]
+
+python3-unidiff:
+    ubuntu: ["python3-unidiff"]
+
+python3-urdfpy-pip:
+    pip: ["urdfpy"]
+
+python3-urllib3:
+    ubuntu: ["python3-urllib3"]
+
+python3-urwid:
+    ubuntu: ["python3-urwid"]
+
+python3-usb:
+    ubuntu: ["python3-usb"]
+
+python3-uvicorn:
+    pip: ["uvicorn"]
+
+python3-uvloop:
+    ubuntu: ["python3-uvloop"]
+
+python3-validators:
+    ubuntu:
+        default: ["python3-validators"]
+        focal: nonexistent
+
+python3-vcstool:
+    ubuntu: ["python3-vcstool"]
+
+python3-vedo-pip:
+    pip: ["vedo"]
+
+python3-venv:
+    ubuntu: ["python3-venv"]
+
+python3-virtualserialports-pip:
+    pip: ["PyVirtualSerialPorts"]
+
+python3-voluptuous:
+    ubuntu: ["python3-voluptuous"]
+
+python3-waitress:
+    ubuntu: ["python3-waitress"]
+
+python3-wand:
+    ubuntu: ["python3-wand"]
+
+python3-watchdog:
+    ubuntu: ["python3-watchdog"]
+
+python3-waymo-open-dataset-tf-2-6-0-pip:
+    pip: ["waymo-open-dataset-tf-2-6-0"]
+
+python3-weasyprint-pip:
+    pip: ["weasyprint"]
+
+python3-webargs:
+    pip: ["webargs"]
+    pip: ["webargs"]
+
+python3-webpy:
+    ubuntu: ["python3-webpy"]
+
+python3-websocket:
+    ubuntu: ["python3-websocket"]
+
+python3-websockets:
+    ubuntu: ["python3-websockets"]
+
+python3-werkzeug:
+    ubuntu: ["python3-werkzeug"]
+
+python3-west-pip:
+    pip: ["west"]
+
+python3-wgconfig-pip:
+    pip: ["wgconfig"]
+
+python3-whichcraft:
+    ubuntu: ["python3-whichcraft"]
+
+python3-wrapt:
+    ubuntu: ["python3-wrapt"]
+
+python3-wxgtk4.0:
+    ubuntu: ["python3-wxgtk4.0"]
+
+python3-xdot:
+    ubuntu: ["xdot"]
+
+python3-xlsxwriter:
+    ubuntu: ["python3-xlsxwriter"]
+
+python3-xmlschema:
+    pip: ["xmlschema"]
+
+python3-xmltodict:
+    ubuntu: ["python3-xmltodict"]
+
+python3-yaml:
+    ubuntu: ["python3-yaml"]
+
+python3-yappi:
+    ubuntu:
+        default: ["python3-yappi"]
+        bionic: nonexistent
+
+python3-yoctopuce-pip:
+    pip: ["yoctopuce"]
+
+python3-yolov5:
+    pip: ["yolov5"]
+
+python3-zmq:
+    ubuntu: ["python3-zmq"]
+
+qdarkstyle-pip:
+    pip: ["qdarkstyle"]
+
+quadprog-pip:
+    pip: ["quadprog"]
+
+rosbag-metadata-pip:
+    pip: ["rosbag-metadata"]
+
+roslibpy-pip:
+    pip: ["roslibpy"]
+
+rpy2:
+    ubuntu: ["python-rpy2"]
+
+sphinxcontrib-bibtex-pip:
+    pip: ["sphinxcontrib-bibtex"]
+
+svgpathtools-pip:
+    pip: ["svgpathtools"]
+
+tilestache:
+    ubuntu: ["tilestache"]
+
+uavcan-pip:
+    pip: ["uavcan"]
+
+urdf2webots-pip:
+    pip: ["urdf2webots"]
+
+virtualenv:
+    ubuntu: ["virtualenv"]
+
+wxpython:
+    ubuntu:
+        default: ["python-wxgtk3.0"]
+
+yapf:
+    ubuntu:
+        bionic: ["yapf"]
+
+yapf3:
+    ubuntu:
+        default: ["yapf3"]
+
+zulip-pip:
+    pip: ["zulip"]
+
+bundler:
+    ubuntu: ["bundler"]
+
+facets:
+    gem: ["facets"]
+
+flexmock:
+    ubuntu: ["ruby-flexmock"]
+
+hoe:
+    ubuntu: ["ruby-hoe"]
+
+metaruby:
+    gem: ["metaruby"]
+
+nokogiri:
+    ubuntu: ["ruby-nokogiri"]
+
+rake:
+    ubuntu: ["rake"]
+
+rake-compiler:
+    ubuntu: ["rake-compiler"]
+
+rdoc:
+    ubuntu: ["ruby"]
+
+rubocop:
+    ubuntu: ["rubocop"]
+
+ruby:
+    ubuntu: ["ruby"]
+
+ruby-backports:
+    ubuntu: ["ruby-backports"]
+
+ruby-dev:
+    ubuntu: ["ruby-dev"]
+
+ruby-ronn:
+    ubuntu: ["ruby-ronn"]
+
+ruby-sass:
+    ubuntu: ["ruby-sass"]
+
+utilrb:
+    gem: ["utilrb"]
+
